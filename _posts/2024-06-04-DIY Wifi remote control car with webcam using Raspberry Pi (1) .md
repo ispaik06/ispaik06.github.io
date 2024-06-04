@@ -1,6 +1,6 @@
 ---
 title: "DIY Wifi remote control car with webcam using Raspberry Pi (1)"
-date: 2024-06-05 15:22:00 +09:00
+date: 2024-06-04 15:22:00 +09:00
 categories: [Arduino/RaspberryPi]
 tags: [RaspberryPi, Webcam, RCcar, Project]
 
