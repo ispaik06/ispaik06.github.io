@@ -40,7 +40,7 @@ mermaid: true
 - Counting sort
 
 ## 효율성 비교
-|                | Worst Case | Average Case |
+| Sort Algorithm | Worst Case | Average Case |
 | -------------- | :--------: | :----------: |
 | Selection Sort |   $n^2$    |    $n^2$     |
 | Bubble Sort    |   $n^2$    |    $n^2$     |
