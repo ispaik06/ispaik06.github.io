@@ -680,8 +680,9 @@ $btn-mb: 0.5rem;
   width: $sidebar-width;
   z-index: 99;
   // background: var(--sidebar-bg);
-  background: url('/assets/img/sidebarimg.png');
-  //background-size: 100% 100%;
+  background: url('/assets/img/sidebarimg.jpeg');
+  //background-size: 250% 100%;
+  background-size: 100% 100%;
   background-position: center;
   border-right: 1px solid var(--sidebar-border-color);
 
@@ -697,6 +698,7 @@ $btn-mb: 0.5rem;
   %sidebar-link-hover {
     &:hover {
       color: var(--sidebar-active-color);
+      color: rgb(248, 255, 240);
     }
   }
 
@@ -743,13 +745,17 @@ $btn-mb: 0.5rem;
       @extend %clickable-transition;
       @extend %sidebar-link-hover;
 
-      color: var(--site-title-color);
+      //color: var(--site-title-color);
+      color: rgba(41, 47, 48, 0.9);
+      color: rgba(40, 68, 45, 0.82);
     }
   }
 
   .site-subtitle {
     font-size: 95%;
-    color: var(--site-subtitle-color);
+    // color: var(--site-subtitle-color);
+    color: rgba(41, 47, 48, 0.9);
+    color: rgba(19, 35, 3, 0.9);
     margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
@@ -774,6 +780,7 @@ $btn-mb: 0.5rem;
         align-items: center;
         border-radius: 0.75rem;
         font-weight: 600;
+        color: rgb(226, 250, 200);
 
         &:hover {
           background-color: var(--sidebar-hover-bg);
@@ -793,7 +800,8 @@ $btn-mb: 0.5rem;
 
       &.active {
         .nav-link {
-          color: var(--sidebar-active-color);
+          //color: var(--sidebar-active-color);
+          color: rgb(183, 247, 148);
           background-color: var(--sidebar-hover-bg);
 
           span {
@@ -820,7 +828,8 @@ $btn-mb: 0.5rem;
       height: $btn-size;
       margin-bottom: $btn-mb; // multi line gap
       border-radius: 50%;
-      color: var(--sidebar-btn-color);
+      //color: var(--sidebar-btn-color);
+      color: rgba(250, 255, 184, 0.9);
       background-color: var(--sidebar-btn-bg);
       text-align: center;
       display: flex;
