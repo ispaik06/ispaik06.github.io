@@ -5,9 +5,9 @@
 
 # - type: twitter
 #   icon: "fa-brands fa-x-twitter"
-- type: facebook
-  icon: "fab fa-facebook"
-  url: "https://www.facebook.com/profile.php?id=100039962114487"
+- type: instagram
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/_ispaik.0/"
 
 - type: email
   icon: "fas fa-envelope"
