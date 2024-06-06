@@ -1,6 +1,5 @@
 ---
 title: "Raspberry Pi DC motor control with L298"
-author: In-Seong Paik
 date: 2024-06-07 02:10:00 +09:00
 categories: [RaspberryPi]
 tags: [Raspberry Pi, DC motor]
