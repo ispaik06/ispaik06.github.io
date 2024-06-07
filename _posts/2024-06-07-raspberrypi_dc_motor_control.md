@@ -5,22 +5,22 @@ categories: [RaspberryPi]
 tags: [Raspberry Pi, DC motor]
 ---
 
-# RaspberryP i DC motor control with L298
+## RaspberryP i DC motor control with L298
 이 글은 라즈베리파이로 DC모터를 제어하는 방법에 대해 다룬다.
 DC 모터는 서보모터나 스텝모터와 달리 연속적인 회전을 하고, 방향과 속도를 지정하여 구동시킬 수 있다. DC 모터의 방향과 속도를 제어하기 위해서는 모터 드라이버가 필요하다. 이번 포스팅에서는 L298N이 탑재된 모터 드라이버 `L298`을 사용한다.
 
 
-## 사용한 부품
+### 사용한 부품
 * [Raspberry Pi 4 Model B 8GB](https://www.devicemart.co.kr/goods/view?no=12553062)
 * [JGA25-371 DC motor](https://www.devicemart.co.kr/goods/view?no=1329802)
 * [L298 motor driver](https://www.devicemart.co.kr/goods/view?no=1278835)
 
 
-## 회로도 구성
+### 회로도 구성
 아래 그림과 같이 회로를 연결하면 된다.
 ![circuit_raspberrypi_dcmotor](/assets/img/circuit_raspberrypi_dcmotor.png)
 
-## Python 예제 코드
+### Python 예제 코드
 아래 코드는 두 개의 DC 모터로 2륜 구동 차를 만들었을 때, forward, backward, left turn, right turn 기능을 구현한 코드이다.
 
 크게 복잡한 로직은 없어서 이해하기에 무리가 없을 것 같아 자세한 설명은 생략한다.
@@ -134,11 +134,11 @@ if __name__ == '__main__':
 ```
 
 
-## 참고 사항
-### 1. GPIO.setwarnings(False)
+### 참고 사항
+#### 1. GPIO.setwarnings(False)
 라즈베리파이에서 GPIO를 사용하는 코드를 실행하면 에러가 뜨는 경우가 있다. 오류를 해결하고자 열심히 구글링 해본 결과 그냥 코드에 `GPIO.setwarnings(False)`를 추가해주면 된다.
 
 라즈베리파이의 GPIO 라이브러리인 RPi.GPIO에서 경고 메시지를 비활성화하는 코드이다. 이를 사용하지 않으면 여러 가지 상황에서 경고 메시지가 출력될 수 있다. 주로 발생하는 경고 중 하나는 GPIO 핀을 설정하거나 사용 중에 이미 다른 프로세스에서 해당 핀을 사용하고 있을 때 발생하는 경고이다.
 
-### 2. 라즈베리파이 핀 설정
+#### 2. 라즈베리파이 핀 설정
 라즈베리파이의 핀을 처음 사용해보는 사람은 `GPIO.setmode(GPIO.BCM)`이 어떤 코드인지 궁금할 것이다. 이에 대한 자세한 내용은 [라즈베리파이 핀 설정: BOARD와 BCM 차이](https://ispaik06.github.io/posts/raspberrypi_board_bcm/)을 확인해보자.

@@ -5,7 +5,7 @@ categories: [RaspberryPi]
 tags: [Raspberry Pi]
 ---
 
-# 라즈베리파이 핀 설정: BOARD와 BCM 차이
+## 라즈베리파이 핀 설정: BOARD와 BCM 차이
 코드에서 라즈베리파이 GPIO 핀 번호 설정을 할 때, 아래와 같이 두 가지 종류로 구분해서 핀 설정을 할 수 있다.
 ```python
 GPIO.setmode(GPIO.BOARD)  # 보드의 핀 번호로 설정
