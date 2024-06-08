@@ -38,15 +38,19 @@
   );
 
   /* Sidebar */
-  --site-title-color: rgb(113, 113, 113);
-  --site-subtitle-color: #717171;
+  // --site-title-color: rgb(113, 113, 113);
+  --site-title-color: rgb(4, 26, 56);
+  // --site-subtitle-color: #717171;
+  --site-subtitle-color: rgb(4, 26, 56);
   --sidebar-bg: #f6f8fa;
   --sidebar-border-color: #efefef;
   --sidebar-muted-color: #545454;
-  --sidebar-active-color: #1d1d1d;
-  --sidebar-hover-bg: rgb(223, 233, 241, 0.64);
+  // --sidebar-active-color: #1d1d1d;
+  --sidebar-active-color: #002f02;
+  --sidebar-hover-bg: rgba(225, 223, 241, 0.64);
   --sidebar-btn-bg: white;
-  --sidebar-btn-color: #8e8e8e;
+  // --sidebar-btn-color: #8e8e8e;
+  --sidebar-btn-color: #326400;
   --avatar-border-color: white;
 
   /* Topbar */
@@ -66,7 +70,7 @@
   --btn-share-color: gray;
   --btn-share-hover-color: #0d6efd;
   --card-bg: white;
-  --card-hovor-bg: #e2e2e2;
+  --card-hovor-bg: #b7b7b7;
   --card-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0,
     rgba(211, 209, 209, 0.15) 0 0 0 1px;
   --footnote-target-bg: lightcyan;
