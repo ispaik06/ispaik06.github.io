@@ -1,5 +1,5 @@
 ---
-title: "Wifi remote control car with webcam using Raspberry Pi Project"
+title: "[Project] Wifi remote control car with webcam using Raspberry Pi"
 date: 2024-06-07 15:22:00 +09:00
 categories: [Project]
 tags: [Raspberry Pi, Arduino, DC motor, Servo, Flask, Server]
@@ -61,7 +61,7 @@ tags: [Raspberry Pi, Arduino, DC motor, Servo, Flask, Server]
 	
 	* [Python OpenCV를 이용한 웹캠 스트리밍] 
 	
-	* [ngrok 사용하기] 
+	* [ngrok 사용하기](https://ispaik06.github.io/posts/Ngrok-%EB%A1%9C%EC%BB%AC-%EC%84%9C%EB%B2%84%EB%A5%BC-%EC%99%B8%EB%B6%80%EC%99%80-%ED%86%B5%EC%8B%A0%EC%9D%B4-%EA%B0%80%EB%8A%A5%ED%95%98%EA%B2%8C-%ED%95%B4%EC%A3%BC%EB%8A%94-%ED%88%B4/)
 	
 	* [아두이노와 라즈베리파이 시리얼 통신] 
 
@@ -79,11 +79,12 @@ tags: [Raspberry Pi, Arduino, DC motor, Servo, Flask, Server]
 ---
 
 
-## 하드웨어 설계 및 제작
+## 하드웨어 설계 및 제작 (이종원, 박하준)
 
 
 
 ## 구동 컨트롤 패널 웹 서버 구축
+
 
 
 ## 서보모터 떨림 해결을 위한 아두이노 연동
