@@ -2,6 +2,12 @@
  * The main dark mode styles
  */
 
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200..900&display=swap');
+
+
 @mixin dark-scheme {
   /* Framework color */
   --main-bg: rgb(27, 27, 30);
@@ -147,5 +153,13 @@
   /* stylelint-disable-next-line selector-id-pattern */
   #disqus_thread {
     color-scheme: none;
+  }
+
+  /* 폰트 패밀리 추가 */
+  body,
+  .sidebar,
+  .post-content {
+    font-family: 'Noto Sans KR', sans-serif;
+    //font-optical-sizing: auto;
   }
 } /* dark-scheme */
