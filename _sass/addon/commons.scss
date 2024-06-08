@@ -745,19 +745,13 @@ $btn-mb: 0.5rem;
       @extend %clickable-transition;
       @extend %sidebar-link-hover;
 
-      //color: var(--site-title-color);
-      //color: rgba(41, 47, 48, 0.9);
-      // color: rgba(40, 68, 45, 0.82);
-      // color: rgb(4, 56, 41);
-      color: rgb(4, 26, 56);
+      color: var(--site-title-color);
     }
   }
 
   .site-subtitle {
     font-size: 95%;
-    // color: var(--site-subtitle-color);
-    color: rgba(41, 47, 48, 0.9);
-    color: rgba(19, 35, 3, 0.9);
+    color: var(--site-subtitle-color);
     margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
@@ -802,8 +796,7 @@ $btn-mb: 0.5rem;
 
       &.active {
         .nav-link {
-          //color: var(--sidebar-active-color);
-          color: rgb(183, 247, 148);
+          color: var(--sidebar-active-color);
           background-color: var(--sidebar-hover-bg);
 
           span {
@@ -830,8 +823,7 @@ $btn-mb: 0.5rem;
       height: $btn-size;
       margin-bottom: $btn-mb; // multi line gap
       border-radius: 50%;
-      //color: var(--sidebar-btn-color);
-      color: rgba(250, 255, 184, 0.9);
+      color: var(--sidebar-btn-color);
       background-color: var(--sidebar-btn-bg);
       text-align: center;
       display: flex;
