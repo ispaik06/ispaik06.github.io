@@ -53,17 +53,17 @@ tags: [Raspberry Pi, Arduino, DC motor, Servo, Flask, Server]
 
 	* [라즈베리파이 DC모터 제어](https://ispaik06.github.io/posts/raspberrypi_dc_motor_control/)
 
-	* [라즈베리파이 서보모터 제어] 
+	* [라즈베리파이 서보모터 제어] (이서준)
 	
 	* [Flask를 이용한 웹 서버 구축](https://ispaik06.github.io/posts/flask%EB%A5%BC_%EC%9D%B4%EC%9A%A9%ED%95%9C_%EC%9B%B9%EC%84%9C%EB%B2%84_%EA%B5%AC%EC%B6%95/)
 	
-	* [라즈베리파이 motion을 이용한 웹캠 스트리밍] 
+	* [라즈베리파이 motion을 이용한 웹캠 스트리밍] (이서준)
 	
-	* [Python OpenCV를 이용한 웹캠 스트리밍] 
+	* [Python OpenCV를 이용한 웹캠 스트리밍] (이서준)
 	
 	* [ngrok 사용하기](https://ispaik06.github.io/posts/Ngrok-%EB%A1%9C%EC%BB%AC-%EC%84%9C%EB%B2%84%EB%A5%BC-%EC%99%B8%EB%B6%80%EC%99%80-%ED%86%B5%EC%8B%A0%EC%9D%B4-%EA%B0%80%EB%8A%A5%ED%95%98%EA%B2%8C-%ED%95%B4%EC%A3%BC%EB%8A%94-%ED%88%B4/)
 	
-	* [아두이노와 라즈베리파이 시리얼 통신] 
+	* [아두이노와 라즈베리파이 시리얼 통신] (이서준)
 
 
 * **최종 구현**
