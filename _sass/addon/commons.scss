@@ -746,8 +746,10 @@ $btn-mb: 0.5rem;
       @extend %sidebar-link-hover;
 
       //color: var(--site-title-color);
-      color: rgba(41, 47, 48, 0.9);
-      color: rgba(40, 68, 45, 0.82);
+      //color: rgba(41, 47, 48, 0.9);
+      // color: rgba(40, 68, 45, 0.82);
+      // color: rgb(4, 56, 41);
+      color: rgb(4, 26, 56);
     }
   }
 
