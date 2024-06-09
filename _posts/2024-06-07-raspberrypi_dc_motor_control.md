@@ -1,11 +1,11 @@
 ---
-title: "Raspberry Pi DC motor control with L298"
+title: "[Raspberry Pi] DC motor control with L298"
 date: 2024-06-07 02:10:00 +09:00
 categories: [RaspberryPi]
 tags: [Raspberry Pi, DC motor]
 ---
 
-## RaspberryP i DC motor control with L298
+## RaspberryPi DC motor control with L298
 이 글은 라즈베리파이로 DC모터를 제어하는 방법에 대해 다룬다.
 DC 모터는 서보모터나 스텝모터와 달리 연속적인 회전을 하고, 방향과 속도를 지정하여 구동시킬 수 있다. DC 모터의 방향과 속도를 제어하기 위해서는 모터 드라이버가 필요하다. 이번 포스팅에서는 L298N이 탑재된 모터 드라이버 `L298`을 사용한다.
 

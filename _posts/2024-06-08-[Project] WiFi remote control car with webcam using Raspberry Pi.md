@@ -1,6 +1,6 @@
 ---
 title: "[Project] WiFi remote control car with webcam using Raspberry Pi"
-date: 2024-06-08 19:44:00 +09:00
+date: 2024-06-09 15:8:00 +09:00
 categories: [Project]
 tags: [Raspberry Pi, Arduino, Flask, Server]
 ---
@@ -54,21 +54,21 @@ tags: [Raspberry Pi, Arduino, Flask, Server]
 
 	* [라즈베리파이 DC모터 제어](https://ispaik06.github.io/posts/raspberrypi_dc_motor_control/)
 
-	* [라즈베리파이 서보모터 제어](https://ispaik06.github.io/posts/Project-Ball-&-Beam/)
+	* [라즈베리파이 서보모터 제어](https://ispaik06.github.io/posts/Raspberry-Pi-Servo-motor-control/)
 	
 	* [Flask를 이용한 웹 서버 구축](https://ispaik06.github.io/posts/flask%EB%A5%BC_%EC%9D%B4%EC%9A%A9%ED%95%9C_%EC%9B%B9%EC%84%9C%EB%B2%84_%EA%B5%AC%EC%B6%95/)
 	
-	* [라즈베리파이 motion을 이용한 웹캠 스트리밍](https://ispaik06.github.io/posts/Project-Ball-&-Beam/)
+	* [라즈베리파이 motion을 이용한 웹캠 스트리밍](https://ispaik06.github.io/posts/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4-motion%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%9B%B9%EC%BA%A0-%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D/)
 	
-	* [OpenCV, Flask를 이용한 웹캠 스트리밍](https://ispaik06.github.io/posts/Project-Ball-&-Beam/)
+	* [OpenCV, Flask를 이용한 웹캠 스트리밍](https://ispaik06.github.io/posts/OpenCV,-Flask%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%9B%B9%EC%BA%A0-%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D-(python)/)
 	
 	* [ngrok 사용하기](https://ispaik06.github.io/posts/Ngrok-%EB%A1%9C%EC%BB%AC-%EC%84%9C%EB%B2%84%EB%A5%BC-%EC%99%B8%EB%B6%80%EC%99%80-%ED%86%B5%EC%8B%A0%EC%9D%B4-%EA%B0%80%EB%8A%A5%ED%95%98%EA%B2%8C-%ED%95%B4%EC%A3%BC%EB%8A%94-%ED%88%B4/)
 	
-	* [pyserial을 이용한 아두이노와 라즈베리파이 시리얼 통신](https://ispaik06.github.io/posts/Project-Ball-&-Beam/)
+	* [pyserial을 이용한 아두이노와 라즈베리파이 시리얼 통신](https://ispaik06.github.io/posts/pyserial%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8%EC%99%80-%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4-%EC%8B%9C%EB%A6%AC%EC%96%BC-%ED%86%B5%EC%8B%A0/)
 
 
 * **최종 구현**
-	1. [하드웨어 설계 및 제작 (이종원, 박하준)](#하드웨어-설계-및-제작-이종원-박하준)
+	1. [하드웨어 설계 및 제작](#하드웨어-설계-및-제작)
 	
 	2. [구동 컨트롤 패널 웹 서버 구축](#구동-컨트롤-패널-웹-서버-구축)
 
@@ -82,7 +82,7 @@ tags: [Raspberry Pi, Arduino, Flask, Server]
 ---
 
 
-## 하드웨어 설계 및 제작 (이종원, 박하준)
+## 하드웨어 설계 및 제작
 
 ### 회로도 구성
 라즈베리파이에 모터 드라이버, 서보모터, 웹캠이 모두 연결되어 있다. 전원으로 11.1V 2200mAh 리포 배터리를 사용한다.
@@ -397,7 +397,7 @@ if __name__ == '__main__':
 
 사실 우리는 라즈베리파이에서 `motion` 프로그램을 이용해 웹캠 스트리밍을 하려고 했었다.
 
- 모션 이서준
+ [라즈베리파이 motion을 이용한 웹캠 스트리밍](https://ispaik06.github.io/posts/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4-motion%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%9B%B9%EC%BA%A0-%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D/)
 
 motion 사용법을 공부하고 웹캠 스트리밍 구현을 마친 뒤에 계획을 잘못 설정했다는 것을 깨달았다.
 
@@ -411,7 +411,7 @@ Motion 소프트웨어를 사용하여 웹켐 스트리밍에 성공하였다. �
 >
 > OpenCV(Open Source Computer Vision Library)는 실시간 이미지 처리와 컴퓨터 비전을 위한 오픈 소스 소프트웨어 라이브러리이다. C++, Python, Java 등을 지원하며, 다양한 운영 체제에서 실행된다. 주요 기능으로는 이미지 처리, 객체 인식, 영상 분석, 기계 학습, 3D 재구성 등이 있으며, 자율 주행, 로봇 공학, 의료 영상 분석 등 다양한 분야에서 사용된다.
 
-웹캠 스트리밍 구현 방법은 **[[Python OpenCV를 이용한 웹캠 스트리밍] (이서준)]** 에서 확인할 수 있다.
+웹캠 스트리밍 구현 방법은 [OpenCV, Flask를 이용한 웹캠 스트리밍](https://ispaik06.github.io/posts/OpenCV,-Flask%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%9B%B9%EC%BA%A0-%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D-(python)/)에서 확인할 수 있다.
 
 
 ---
