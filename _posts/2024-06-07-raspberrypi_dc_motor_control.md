@@ -18,7 +18,7 @@ DC 모터는 서보모터나 스텝모터와 달리 연속적인 회전을 하�
 
 ### 회로도 구성
 아래 그림과 같이 회로를 연결하면 된다.
-![circuit_raspberrypi_dcmotor](/assets/img/circuit_raspberrypi_dcmotor.png)
+![dcmotor_l298.ps.png](/assets/img/dcmotor_l298.ps.png)
 
 ### Python 예제 코드
 아래 코드는 두 개의 DC 모터로 2륜 구동 차를 만들었을 때, forward, backward, left turn, right turn 기능을 구현한 코드이다.
