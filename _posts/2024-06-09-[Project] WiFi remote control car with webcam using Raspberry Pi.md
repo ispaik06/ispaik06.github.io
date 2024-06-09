@@ -1,6 +1,6 @@
 ---
 title: "[Project] WiFi remote control car with webcam using Raspberry Pi"
-date: 2024-06-09 15:8:00 +09:00
+date: 2024-06-09 15:18:00 +09:00
 categories: [Project]
 tags: [Raspberry Pi, Arduino, Flask, Server]
 ---
@@ -101,7 +101,7 @@ tags: [Raspberry Pi, Arduino, Flask, Server]
 
 그래서 만들어진 최종 회로는 아래와 같다.
 
-![rccar_with_arduino.ps.png](/assets/img/rccar_with_arduino.ps.png){: width="80%" height="80%"}*최종 버전*
+![rccar_with_arduino.ps.png](/assets/img/rccar_with_arduino.ps.png){: width="90%" height="90%"}*최종 버전*
 
 (라즈베리파이, 아두이노), (라즈베리파이, 웹캠)은 각각 usb 케이블로 서로 연결하면 된다.
 
@@ -419,7 +419,8 @@ motion 사용법을 공부하고 웹캠 스트리밍 구현을 마친 뒤에 계
 
 [라즈베리파이 DC모터 제어](https://ispaik06.github.io/posts/raspberrypi_dc_motor_control/)
 
-**[[라즈베리파이 서보모터 제어] (이서준)]**
+[라즈베리파이 서보모터 제어](https://ispaik06.github.io/posts/Raspberry-Pi-Servo-motor-control/)
+
 
 
 
