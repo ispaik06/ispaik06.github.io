@@ -1,5 +1,5 @@
 ---
-title: "Raspberry Pi Servo motor control"
+title: "[Raspberry Pi] Servo motor control"
 date: 2024-06-09 14:32:00 +09:00
 categories: [Raspberry Pi]
 tags: [Raspberry Pi, Servo]
