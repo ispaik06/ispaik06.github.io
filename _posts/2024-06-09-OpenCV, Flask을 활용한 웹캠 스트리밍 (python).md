@@ -19,9 +19,10 @@ tags: [Python, OpenCV, Webcam]
 - [Logitech C310 HD WEBCAM](https://www.logitech.com/ko-kr/products/webcams/c310-hd-webcam.960-000631.html)
 
 
-## OpenCV란?
+> **OpenCV란?**
+>
+> OpenCV(Open Source Computer Vision Library)는 실시간 이미지 처리와 컴퓨터 비전을 위한 오픈 소스 소프트웨어 라이브러리이다. C++, Python, Java 등을 지원하며, 다양한 운영 체제에서 실행된다. 주요 기능으로는 이미지 처리, 객체 인식, 영상 분석, 기계 학습, 3D 재구성 등이 있으며, 자율 주행, 로봇 공학, 의료 영상 분석 등 다양한 분야에서 사용된다.
 
-OpenCV(Open Source Computer Vision Library)는 컴퓨터 비전 및 이미지 처리 응용 프로그램을 개발하기 위한 오픈소스 라이브러리이다. Intel에서 개발되었으며, 현재 다양한 플랫폼에서 사용 가능하다. OpenCV는 실시간 이미지 처리에 최적화되어 있으며, 다양한 기능을 제공한다.
 
 
 ## OpenCV 설치
