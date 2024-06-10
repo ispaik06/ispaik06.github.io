@@ -1,6 +1,6 @@
 ---
 title: "[Project] WiFi remote control car with webcam using Raspberry Pi"
-date: 2024-06-09 15:18:00 +09:00
+date: 2024-06-10 11:16:00 +09:00
 categories: [Project]
 tags: [Raspberry Pi, Arduino, Flask, Server]
 ---
@@ -44,7 +44,7 @@ tags: [Raspberry Pi, Arduino, Flask, Server]
 
 * [Logitech C310 HD WEBCAM](https://www.logitech.com/ko-kr/products/webcams/c310-hd-webcam.960-000631.html)
 
-* [Arduino UNO](https://www.devicemart.co.kr/goods/view?no=1245596) (아두이노는 프로젝트 중간에 추가됨) 
+* [Arduino UNO](https://www.devicemart.co.kr/goods/view?no=1245596) (아두이노는 프로젝트 중간에 추가됨)
 
 
 
@@ -106,8 +106,9 @@ tags: [Raspberry Pi, Arduino, Flask, Server]
 (라즈베리파이, 아두이노), (라즈베리파이, 웹캠)은 각각 usb 케이블로 서로 연결하면 된다.
 
 
-### **아직 안씀**
+### RC카 프레임 제작
 
+### 웹캠 브라켓 제작
 ---
 
 
@@ -552,9 +553,65 @@ https://abyz.me.uk/rpi/pigpio/index.html
 
 [main_final](https://github.com/ispaik06/WiFi_RC_car_webcam/tree/main/main_final)
 
-이전에 만들었던 구동 컨트롤 패널을 스마트폰에서도 사용할 수 있도록 버튼을 추가하고, 전체적으로 배치와 슬라이더 디자인을 수정하였다.
+이전에 만들었던 구동 컨트롤 패널을 스마트폰에서도 사용할 수 있도록 버튼을 추가하고, 전체적으로 배치와 슬라이더 디자인을 수정하였다. 이 부분은 8기 박하준이 구현하였다. 
 
 ![project1_4.png](/assets/img/project1_4.png)
+
+
+다음은 이에 대한 설명이다:
+
+> **작성자: 8기 박하준**
+> ##### 웹 서버 모바일 터치 기능 구현
+> 모바일 환경에서도 RC카를 원활히 제어할 수 있도록 터치 이벤트를 처리하는 코드를 추가했다. 아래 작성한 코드는 JavaScript와 jQuery를 사용하여 터치 이벤트를 처리한다.
+> ##### JavaScript를 이용한 모바일 터치 이벤트 처리
+> 다음 코드는 모바일 터치 이벤트를 처리하여 RC카를 제어하는 기능을 구현한다. 각 방향 버튼에 대해 터치 이벤트를 감지하고, 해당 방향에 맞는 키보드 이벤트를 트리거한다.
+```html
+// 모바일 터치 이벤트 처리
+$('.arrow-key').on('mousedown touchstart', function() {
+    var arrowId = $(this).attr('id');
+    var keyCode;
+    switch (arrowId) {
+        case 'arrowUp':
+            keyCode = 38;
+            break;
+        case 'arrowDown':
+            keyCode = 40;
+            break;
+        case 'arrowLeft':
+            keyCode = 37;
+            break;
+        case 'arrowRight':
+            keyCode = 39;
+            break;
+    }
+    if (keyCode) {
+        $(document).trigger($.Event('keydown', { keyCode: keyCode }));
+    }
+});
+
+$('.arrow-key').on('mouseup touchend', function() {
+    var arrowId = $(this).attr('id');
+    var keyCode;
+    switch (arrowId) {
+        case 'arrowUp':
+            keyCode = 38;
+            break;
+        case 'arrowDown':
+            keyCode = 40;
+            break;
+        case 'arrowLeft':
+            keyCode = 37;
+            break;
+        case 'arrowRight':
+            keyCode = 39;
+            break;
+    }
+    if (keyCode) {
+        $(document).trigger($.Event('keyup', { keyCode: keyCode }));
+    }
+});
+
+```
 
 
 ---
@@ -656,8 +713,13 @@ RC카를 다 만들고 학교 1층에서 조종해보았다. 양쪽 DC 모터의
 ---
 
 ### 느낀 점 (박하준)
+이번 RC카 제작 프로젝트에서 하드웨어 및 웹서버를  담당하면서 많은 것을 배울 수 있었다. 가장 큰 성과는 웹캠을 사용해 다양한 기기에서 사용자와 인터렉티브한 상호작용을 구현할 수 있었던 점이다. 터치 이벤트와 마우스 이벤트를 동시에 처리할 수 있도록 코드를 작성하면서, 모바일 환경과 데스크톱 환경의 차이를 깊이 이해할 수 있었다.
 
-    아직 안씀
+JavaScript와 jQuery를 활용하여 터치 이벤트를 처리하는 과정에서, 이벤트 리스너를 적절하게 설정하고, 각 방향 버튼의 ID를 통해 키보드 이벤트를 트리거하는 부분이 특히 흥미로웠다. 이러한 작업을 통해 사용자 입력을 효율적으로 처리하고, RC카의 방향을 제어하는 데 있어 높은 정확도를 유지할 수 있었다.
+
+하드웨어 측면에서도 많은 것을 배우고 경험할 수 있었다. 우선 차체 설계 단계에서 부품들의 크기와 배치를 고려하여 구조를 계획하는 것이 얼마나 중요한지 깨달았다. 이륜구동에 볼 캐스터를 사용한 결정은 배터리 사용량과 무게를 줄이는 데 큰 도움이 되었고, 결과적으로 RC카의 제어를 더 쉽게 만들었다.
+
+또한, 웹캠을 설치하면서 시야 문제를 해결하기 위해 2층 판을 분리하고 따로 연결하는 등의 조정 작업을 통해, 하드웨어 설계의 유연성과 문제 해결 능력이 얼마나 중요한지 깨달았다.
 
 
 ---
