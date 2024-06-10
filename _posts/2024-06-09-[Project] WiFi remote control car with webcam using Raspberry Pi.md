@@ -1,6 +1,6 @@
 ---
 title: "[Project] WiFi remote control car with webcam using Raspberry Pi"
-date: 2024-06-10 11:16:00 +09:00
+date: 2024-06-10 11:34:00 +09:00
 categories: [Project]
 tags: [Raspberry Pi, Arduino, Flask, Server]
 ---
