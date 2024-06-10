@@ -112,7 +112,8 @@ tags: [Raspberry Pi, Arduino, Flask, Server]
 
 ### 웹캠 브라켓 제작
 
-[여기에서 확인하세요](https://ispaik06.github.io/posts/%EC%9B%B9%EC%BA%A0-%EB%B8%8C%EB%9D%BC%EC%BC%93-%EC%84%A4%EA%B3%84/)
+[여기에서 확인하세요](https://ispaik06.github.io/posts/Rhino-%EC%9B%B9%EC%BA%A0-%EB%B8%8C%EB%9D%BC%EC%BC%93-%EC%84%A4%EA%B3%84/)
+
 ---
 
 
