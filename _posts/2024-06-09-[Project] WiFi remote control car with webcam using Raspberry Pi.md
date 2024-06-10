@@ -108,7 +108,11 @@ tags: [Raspberry Pi, Arduino, Flask, Server]
 
 ### RC카 프레임 제작
 
+[여기에서 확인하세요](https://ispaik06.github.io/posts/RC%EC%B9%B4-%ED%94%84%EB%A0%88%EC%9E%84-%EC%84%A4%EA%B3%84-MDF-%EC%A0%9C%EC%9E%91/)
+
 ### 웹캠 브라켓 제작
+
+[여기에서 확인하세요](https://ispaik06.github.io/posts/%EC%9B%B9%EC%BA%A0-%EB%B8%8C%EB%9D%BC%EC%BC%93-%EC%84%A4%EA%B3%84/)
 ---
 
 
