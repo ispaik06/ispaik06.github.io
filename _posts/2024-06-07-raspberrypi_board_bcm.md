@@ -1,7 +1,7 @@
 ---
 title: "라즈베리파이 핀 설정: BOARD와 BCM 차이"
 date: 2024-06-07 00:22:00 +09:00
-categories: [RaspberryPi]
+categories: [Raspberry Pi]
 tags: [Raspberry Pi]
 ---
 
