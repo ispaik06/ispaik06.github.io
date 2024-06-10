@@ -570,6 +570,8 @@ https://abyz.me.uk/rpi/pigpio/index.html
 > 모바일 환경에서도 RC카를 원활히 제어할 수 있도록 터치 이벤트를 처리하는 코드를 추가했다. 아래 작성한 코드는 JavaScript와 jQuery를 사용하여 터치 이벤트를 처리한다.
 > ##### JavaScript를 이용한 모바일 터치 이벤트 처리
 > 다음 코드는 모바일 터치 이벤트를 처리하여 RC카를 제어하는 기능을 구현한다. 각 방향 버튼에 대해 터치 이벤트를 감지하고, 해당 방향에 맞는 키보드 이벤트를 트리거한다.
+
+
 ```html
 // 모바일 터치 이벤트 처리
 $('.arrow-key').on('mousedown touchstart', function() {
