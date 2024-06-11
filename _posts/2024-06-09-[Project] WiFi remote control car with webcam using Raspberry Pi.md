@@ -1,8 +1,12 @@
 ---
 title: "[Project] WiFi remote control car with webcam using Raspberry Pi"
 date: 2024-06-10 11:34:00 +09:00
+lastmod: 2024-06-11 16:54:30 +09:00
 categories: [Project]
 tags: [Raspberry Pi, Arduino, Flask, Server]
+sitemap:
+  changefreq: daily
+  priority: 1.0
 ---
 
 이 프로젝트에 대한 모든 소스코드는 [https://github.com/ispaik06/WiFi_RC_car_webcam](https://github.com/ispaik06/WiFi_RC_car_webcam)에 있습니다.
