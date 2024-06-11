@@ -1,8 +1,12 @@
 ---
 title: "[Project] Ball & Beam | PID control with Arduino"
 date: 2024-06-09 8:44:10 +09:00
+lastmod: 2024-06-11 16:54:00 +09:00
 categories: [Project]
 tags: [Control mechanism,  Arduino]
+sitemap:
+  changefreq: daily
+  priority: 1.0
 ---
 
 
