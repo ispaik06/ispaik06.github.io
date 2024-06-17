@@ -533,7 +533,7 @@ https://abyz.me.uk/rpi/pigpio/index.html
 
 라즈베리파이와 아두이노 간의 유선 통신 방법은 여러 가지가 있는데 우리는 usb 케이블로 연결하고 `pyserial` 라이브러리를 이용해 통신하기로 하였다. 기본적인 사용법은 아래 글에 작성했다.
 
-**[[pyserial을 이용한 아두이노와 라즈베리파이 시리얼 통신] (이서준)]**
+[pyserial을 이용한 아두이노와 라즈베리파이 시리얼 통신](https://ispaik06.github.io/posts/pyserial%EC%9D%84_%EC%9D%B4%EC%9A%A9%ED%95%9C_%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8%EC%99%80_%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4_%EC%8B%9C%EB%A6%AC%EC%96%BC_%ED%86%B5%EC%8B%A0/)
 
 아두이노 연결 이후 파이썬 코드에서 서보모터 관련 부분은 다 없애고, 시리얼 통신으로 아두이노에 문자를 보내는 코드로 대체하였다.
 아두이노에서는 특정 문자에 따라 서보모터를 제어하는 코드를 업로드하였다.
