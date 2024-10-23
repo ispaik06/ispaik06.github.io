@@ -58,6 +58,10 @@ use_math: true
 - 연속입자계
 \\[\vec{r_{CM}} = {\int \vec{r} dm \over M}\\]
 
+```math
+\vec{r_{CM}} = {\int \vec{r} dm \over M}
+```
+
 ##### (1) 균일한 막대 (rod)
 ##### (2) 반원 고리 (half-ring)
 ##### (3) 반원 판 (half-disk)
