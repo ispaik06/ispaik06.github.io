@@ -75,6 +75,13 @@ analytics:
 pageviews:
   provider: # now only supports 'goatcounter'
 
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,

@@ -25,8 +25,9 @@ use_math: true
 
 ## ② 입자계에서 뉴턴 제 2법칙 (Newton's 2nd law for a system of particles)
 ##### $\vec{F}_{tot} = M \vec{a}_{CM}$ 유도
+
 $$\begin{align}
-\vec{F}_{tot} &= \sum_{i} \vec{F_i} = \sum_{i} m_i \vec{a_i}
+\vec{F_{tot}} &= \sum_{i} \vec{F_i} = \sum_{i} m_i \vec{a_i}
 \\ & = \sum_{i} m_i \ddot{\vec{r_i}} = \sum_{i} {d^2 \over dt^2} (m_i \vec{r_i})
 \\ & = {d^2 \over dt^2} (\sum_{i} m_i \vec{r_i}) = {d^2 \over dt^2} M \vec{r}_{CM}
 \\ & = M \vec{a}_{CM}
@@ -39,7 +40,7 @@ $$\begin{align}
 
 - (1) 손을 땐 직후 $a_A,\, a_B, \, a_{CM}$ 는?
 - (2) A가 벽에서 분리될 때까지 걸린시간 $t$ 는?
-- 계가 등속운동할 때 진동주기 $T'$ 는?
+- (3) 계가 등속운동할 때 진동주기 $T'$ 는?
 
 <br><br><br>
 
