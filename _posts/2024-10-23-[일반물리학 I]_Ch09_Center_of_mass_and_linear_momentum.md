@@ -20,6 +20,8 @@ math: true
 
   $$\vec{r}_{CM} = { \sum m_i \vec{r_i} \over \sum m_i}$$
 
+<br>
+
 ### Example 1: Gravitational potential energy
 생략
 
@@ -29,7 +31,7 @@ math: true
 ##### $\vec{F}_{tot} = M \vec{a}_{CM}$ 유도
 
 $$\begin{align}
-\vec{F_{tot}} &= \sum_{i} \vec{F_i} = \sum_{i} m_i \vec{a_i}
+\vec{F}_{tot} &= \sum_{i} \vec{F_i} = \sum_{i} m_i \vec{a_i}
 \\ & = \sum_{i} m_i \ddot{\vec{r_i}} = \sum_{i} {d^2 \over dt^2} (m_i \vec{r_i})
 \\ & = {d^2 \over dt^2} (\sum_{i} m_i \vec{r_i}) = {d^2 \over dt^2} M \vec{r}_{CM}
 \\ & = M \vec{a}_{CM}
@@ -54,10 +56,10 @@ $$\begin{align}
 
 ## ③ 연속 분포된 물질 (Continuous matter)의 질량 중심
 - 불연속입자계
-$$\vec{r}_{CM} = {\sum m_i \vec{r_i} \over M}$$
+$$\quad \vec{r}_{CM} = {\sum m_i \vec{r_i} \over M}$$
 
 - 연속입자계
-$$\vec{r}_{CM} = {\int \vec{r} dm \over M}$$
+$$\quad \vec{r}_{CM} = {\int \vec{r} dm \over M}$$
 
 ##### (1) 균일한 막대 (rod)
 ##### (2) 반원 고리 (half-ring)
@@ -87,7 +89,7 @@ $$
 <br><br>
 
 ### Example 5: Cart - Spring system 2
-- A가 벽에서 분리되는 순간 $\vec{v}_{CM}$은?
+- (Cart - Spring system 상황에서) A가 벽에서 분리되는 순간 $\vec{v}_{CM}$은?
 
 <br><br><br>
 
@@ -252,6 +254,8 @@ F = \frac{dp}{dt}\,; \\
 \end{align}
 $$
 
+<br>
+
 코시 - 오일러 미분방정식이므로 다음과 같이 해를 가정한다.
 
 $$
@@ -267,6 +271,8 @@ $$
 &\therefore v = \sqrt{\frac{2}{3}gy}
 \end{align}
 $$
+
+<br>
 
 그러므로 다음과 같이 가속도 $a$를 구할 수 있다.
 
@@ -292,6 +298,8 @@ $$
 \end{align}
 $$
 
+<br>
+
 $$
 \begin{align}
 & gy = v^{2} + y \dot{v} \quad \text{에 대입} \\
@@ -304,9 +312,11 @@ $$
 \end{align}
 $$
 
-
+<br>
 
 $B = \frac{1}{6}$을 대입하여 $y, v, a$를 구하면 운동방정식을 풀어서 나온 결과와 동일한 결과를 얻을 수 있다.
+
+<br>
 
 $$
 \begin{align}
@@ -318,6 +328,7 @@ $$
 \end{align}
 $$
 
+<br>
 
 아무튼, 구하려는 것은 실이 다 풀렸을 때 줄의 속도이므로 $y=L$을 대입하여 구할 수 있다.
 
@@ -363,7 +374,7 @@ K_{i}+U_{i} = K_{f}+U_{f} \;; \\
 \end{align}
 $$
 
-- ##### 뭉친 줄 상황에서는 왜 에너지 보존이 안될까?
+- ##### <U>뭉친 줄 상황에서는 왜 에너지 보존이 안될까?</U>
 - 정지해 있던 뭉친 줄에서 아래 풀어진 줄로 줄이 내려가는 과정을 **완전 비탄성 충돌**로 볼 수 있다.
 - 따라서 에너지가 보존되지 않는다.
 
@@ -437,7 +448,8 @@ $$
 
 <br>
 
-- 결론적으로 알아야 할 것은 (1 $\rightarrow$ 2) 과정은 에너지 보존이 안되는 **완전 비탄성 충돌**이고, (2 $\rightarrow$ 3) 과정은 $n+1$ 번째 미소질량이 얹혀진 상태에서 아래로 내려가는 것이므로 에너지가 보존된다. 
+- 결론적으로 알아야 할 것은 (1 $\rightarrow$ 2) 과정은 에너지 보존이 안되는 **완전 비탄성 충돌**이고, (2 $\rightarrow$ 3) 과정은 
+$n+1$ 번째 미소질량이 얹혀진 상태에서 아래로 내려가는 것이므로 에너지가 보존된다. 
 - **완전 비탄성 충돌**에서 **운동량 보존 법칙**을 쓰고 (에너지가 손실됨),
 - 다음 과정에서 **에너지 보존 법칙**을 써서 
 - equation of motion과 같은 결과가 나온다는 것을 보일 수 있었다.
@@ -472,23 +484,32 @@ $w_{air}$과 $F$의 크기에 따라 결과가 정해진다.
 - 모래알은 바닥에 닿으면 정지한다.
 - 모래알은 일정한 비율로 낙하한다.
 
+<br>
+
 ### (ii) $\Delta t$ 동안 바닥에 작용하는 충격력 $F$
 - (1) 모래가 바닥에 닿을 때 속력
+
 $$
 \begin{align}
 v = \sqrt{2gh}
 \end{align}
 $$
+
+
 - (2) 충격력
+
 $$
 \begin{align}
 F = {\frac{\Delta p}{\Delta t}} = {\frac{\Delta m}{\Delta t}} \sqrt{2gh}
 \end{align}
 $$
 
+<br>
+
 ### (iii) 공기 중에 있는 모래 무게 $w_{air}$
 
 - (1) 모래의 질량
+
 $$
 \begin{align}
 &\Delta m : \Delta t = \Delta m_{air} : \sqrt{\frac{2h}{g}} \\
@@ -496,7 +517,10 @@ $$
 &\rightarrow\, \Delta m_{air} = {\frac{\Delta m}{\Delta t}} \sqrt{\frac{2h}{g}}
 \end{align}
 $$
+
+
 - (2) 모래의 무게
+
 $$
 \begin{align}
 w_{air} =  {\frac{\Delta m}{\Delta t}} \sqrt{2gh}
