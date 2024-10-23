@@ -9,25 +9,26 @@ math: true
 
 **세종과학예술영재학교 박동규 선생님의 `일반물리학 I` 수업 자료 일부입니다.**
 
-수업 필기본 PDF 파일은 여기에서 확인하실 수 있습니다.
-
-시험 기간에 심심해서 마크다운 문법 연습 겸 타이핑쳤던 파일임..
+수업 필기본 PDF 파일은 [여기](https://github.com/ispaik06/ispaik06.github.io/tree/main/assets/other%20files)에서 확인하실 수 있습니다.
 
 
-# 1. 질량 중심 (Center of Mass, C.M)
-## ① 정의 (Definition)
+LaTeX 문법 참고 자료는 [이거](https://github.com/ispaik06/ispaik06.github.io/blob/main/assets/other%20files/The%20Comprehensive%20LaTex%20Symbol%20List.pdf) 참고하세요.
+
+
+## 1. 질량 중심 (Center of Mass, C.M.)
+### ① 정의 (Definition)
 - 입자 위치의 질량에 대한 가중평균
 
   $$\vec{r}_{CM} = { \sum m_i \vec{r_i} \over \sum m_i}$$
 
 <br>
 
-### Example 1: Gravitational potential energy
+#### Example 1: Gravitational potential energy
 생략
 
 <br><br><br>
 
-## ② 입자계에서 뉴턴 제 2법칙 (Newton's 2nd law for a system of particles)
+### ② 입자계에서 뉴턴 제 2법칙 (Newton's 2nd law for a system of particles)
 **$\vec{F}_{tot} = M \vec{a}_{CM}$ 유도**
 
 
@@ -40,7 +41,7 @@ $$\begin{align}
 
 <br><br>
 
-### Example 2: Carts - Spring system
+#### Example 2: Carts - Spring system
 ![스크린샷 2023-10-12 오후 2.43.25.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%202.43.25.png)
 
 - (1) 손을 땐 직후 $a_A,\, a_B, \, a_{CM}$ 는?
@@ -49,13 +50,13 @@ $$\begin{align}
 
 <br><br><br>
 
-### Example 3: 빗면 위의 상자와 공
+#### Example 3: 빗면 위의 상자와 공
 빗면과 물체 사이의 마찰이 있는 경우(A)와 마찰이 없이 미끄러지는 경우(B)에 대해서 빗면이 밀려난 거리 $d$의 크기를 정량적으로 비교하시오. 빗면과 바닥 사이 마찰은 없다.
 ![스크린샷 2023-10-12 오후 2.45.38.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%202.45.38.png)
 
 <br><br><br>
 
-## ③ 연속 분포된 물질 (Continuous matter)의 질량 중심
+### ③ 연속 분포된 물질 (Continuous matter)의 질량 중심
 - 불연속입자계
 $$\quad \vec{r}_{CM} = {\sum m_i \vec{r_i} \over M}$$
 
@@ -70,13 +71,13 @@ $$\quad \vec{r}_{CM} = {\int \vec{r} dm \over M}$$
 
 <br><br>
 
-### Example 4: 사람의 질량 중심
+#### Example 4: 사람의 질량 중심
 생략
 
 
 
-# 2. 선운동량 (Linear Momentum)
-## ① 입자계의 운동량 (Linear momentum for a system of particles)
+## 2. 선운동량 (Linear Momentum)
+### ① 입자계의 운동량 (Linear momentum for a system of particles)
 
 **$\vec{P}_{tot} = M \vec{v}_{CM}$ 유도**
 
@@ -90,12 +91,12 @@ $$
 
 <br><br>
 
-### Example 5: Cart - Spring system 2
+#### Example 5: Cart - Spring system 2
 - (Cart - Spring system 상황에서) A가 벽에서 분리되는 순간 $\vec{v}_{CM}$은?
 
 <br><br><br>
 
-## ② 입자계의 운동에너지 (Kinetic energy for system of particles)
+### ② 입자계의 운동에너지 (Kinetic energy for system of particles)
 ##### $K_{tot} = K_{CM} + K_{rel}$ 유도
 
 $$
@@ -124,14 +125,14 @@ $$
 
 
 
-### Example 5: Cart - Spring system 3
+#### Example 5: Cart - Spring system 3
 - A가 벽에서 분리된 상태에서, 운동 중에 용수철의 최대 압축 길이 $d$는?
 
 
 <br><br><br>
 
-# 3. 충돌 (Collision)
-## ① 탄성 충돌 (Elastic collision)
+## 3. 충돌 (Collision)
+### ① 탄성 충돌 (Elastic collision)
 
 $$
 \begin{align}
@@ -177,13 +178,13 @@ $$
 <br><br>
 
 
-### Example 6: Slingshot effect (SwingBy)
+#### Example 6: Slingshot effect (SwingBy)
 생략
 <br><br><br>
 
 
 
-## ② 비탄성 충돌 (Inelastic collision)
+### ② 비탄성 충돌 (Inelastic collision)
 **Ref. Frame:**
 
 $$
@@ -227,25 +228,25 @@ $$
 <br><br>
 
 
-### Example 7: Impulse
-#### (1) 계란 던지기
-#### (2) 막대 넘어트리기
+#### Example 7: Impulse
+##### (1) 계란 던지기
+##### (2) 막대 넘어트리기
 
 <br><br><br>
 
-# 4. 질량이 변하는 계 (System of varying mass)
-## ① 탁자 위의 줄
-### 문제 상황
+## 4. 질량이 변하는 계 (System of varying mass)
+### ① 탁자 위의 줄
+#### 문제 상황
 ![스크린샷 2023-10-12 오후 2.02.03.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%202.02.03.png)
 
 Mass $M$, length $L$인 동일한 밧줄이 두 개의 탁자 위에 각각 놓여있다. 그림 (A)는 밧줄이 뭉친 상태에서, 그림 (B)는 완전히 펴진 상태에서 낙하하는 상황을 나타낸 것이다.
 
 <br>
 
-### (i) 뭉친 줄
+#### (i) 뭉친 줄
 uniform acceleration 운동이다
 
-#### (1) 운동방정식 (equation of motion)
+##### (1) 운동방정식 (equation of motion)
 
 $$
 \begin{align}
@@ -288,7 +289,7 @@ $$
 
 <br><br>
 
-#### (2) 차원 분석법 (Dimension analysis method)
+##### (2) 차원 분석법 (Dimension analysis method)
 
 $$
 \begin{align}
@@ -342,10 +343,10 @@ $$
 
 <br><br>
 
-### (ii) 펴진 줄
+#### (ii) 펴진 줄
 가속도가 증가하는 운동이다.
 
-#### (1) 운동방정식 (equation of motion)
+##### (1) 운동방정식 (equation of motion)
 
 $$
 \begin{align}
@@ -365,7 +366,7 @@ $$
 
 <br><br>
 
-#### (2) 에너지 보존
+##### (2) 에너지 보존
 ![스크린샷 2023-10-12 오후 1.41.37.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%201.41.37.png)
 
 $$
@@ -376,15 +377,15 @@ K_{i}+U_{i} = K_{f}+U_{f} \;; \\
 \end{align}
 $$
 
-- ##### <U>뭉친 줄 상황에서는 왜 에너지 보존이 안될까?</U>
+- **<U>뭉친 줄 상황에서는 왜 에너지 보존이 안될까?</U>**
 - 정지해 있던 뭉친 줄에서 아래 풀어진 줄로 줄이 내려가는 과정을 **완전 비탄성 충돌**로 볼 수 있다.
 - 따라서 에너지가 보존되지 않는다.
 
 <br><br>
 
-### (iii) 뭉친 줄에서의 에너지 손실 (energy loss)
+#### (iii) 뭉친 줄에서의 에너지 손실 (energy loss)
 ![스크린샷 2023-10-12 오후 1.42.31.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%201.42.31.png)
-#### (1 $\rightarrow$ 2) 운동량 보존 ( $\because$ 외력 = 0?)
+##### (1 $\rightarrow$ 2) 운동량 보존 ( $\because$ 외력 = 0?)
 
 $$
 \begin{align}
@@ -396,7 +397,7 @@ $$
 
 사실 이러한 상황에서 운동량 보존을 쓰는 것은 굉장히 짧은 시간 안에 일어나는 것을 무시한다는 가정 하에 이뤄진다. 예를 들어 총알이 박히면서 밀리는 과정이 굉장히 짧아서 외력이 없다 하고 운동량 보존 법칙을 사용하는 것과 비슷하다.
 
-#### (2 $\rightarrow$ 3) 에너지 보존 ($\Delta K + \Delta U = 0$)
+##### (2 $\rightarrow$ 3) 에너지 보존 ($\Delta K + \Delta U = 0$)
 
 $$
 \begin{align}
@@ -459,8 +460,8 @@ $n+1$ 번째 미소질량이 얹혀진 상태에서 아래로 내려가는 것�
 
 <br><br><br>
 
-## ② 모래 시계 (Sandglass)
-### 문제 상황
+### ② 모래 시계 (Sandglass)
+#### 문제 상황
 (A)는 모래 시계의 모래 대부분이 아래쪽에 있고, 모래알에 떨어지고 있는 상황이다.
 반면에 (B)는 대부분의 모래가 모래 시계 위쪽에 있어서 아래로 모래알이 떨어지고 있는 상황이다.
 **(A)와 (B)의 모래 시계 중, 어느 모래 시계가 더 무겁게 측정될까?**
@@ -482,13 +483,13 @@ $w_{air}$과 $F$의 크기에 따라 결과가 정해진다.
 
 <br>
 
-### (i) 가정
+#### (i) 가정
 - 모래알은 바닥에 닿으면 정지한다.
 - 모래알은 일정한 비율로 낙하한다.
 
 <br>
 
-### (ii) $\Delta t$ 동안 바닥에 작용하는 충격력 $F$
+#### (ii) $\Delta t$ 동안 바닥에 작용하는 충격력 $F$
 - (1) 모래가 바닥에 닿을 때 속력
 
 $$
@@ -508,7 +509,7 @@ $$
 
 <br>
 
-### (iii) 공기 중에 있는 모래 무게 $w_{air}$
+#### (iii) 공기 중에 있는 모래 무게 $w_{air}$
 
 - (1) 모래의 질량
 
@@ -536,8 +537,8 @@ $F = w_{air}$ 이므로 $w_{A} = w_{B}$ 이다.
 
 <br><br><br>
 
-## ③ 로켓 (Rocket)
-### 문제 상황
+### ③ 로켓 (Rocket)
+#### 문제 상황
 (A)는 질량 $m$의 연료를 로켓에 대한 상대속도 $u$로 한꺼번에 분사하는 모습이고,
 (B)는 총질량 $m$의 연료를 로켓에 대한 상대속도 $u$로 연속으로 분사하는 모습이다.
 연료 분사 후, 로켓의 속도가 더 빠른 상황은 (A)와 (B) 중 무엇일까?
@@ -545,7 +546,7 @@ $F = w_{air}$ 이므로 $w_{A} = w_{B}$ 이다.
 ![스크린샷 2023-10-12 오후 1.39.43.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%201.39.43.png)
 
 
-### (i) 한꺼번에 분사
+#### (i) 한꺼번에 분사
 ![스크린샷 2023-10-12 오후 1.40.46.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%201.40.46.png)
 
 운동량 보존 법칙을 사용하여 연료 분사 후 로켓의 속도 $v_{A}$를 구할 수 있다:
@@ -560,9 +561,9 @@ $$
 
 <br>
 
-### (ii) 연속으로 분사
-#### (1) 두 번에 나눠서 분사
-##### 1) 첫 번째 분사
+#### (ii) 연속으로 분사
+##### (1) 두 번에 나눠서 분사
+###### 1) 첫 번째 분사
 ![스크린샷 2023-10-12 오후 2.07.24.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%202.07.24.png)
 
 $$
@@ -573,7 +574,7 @@ $$
 \end{align}
 $$
 
-##### 2) 두 번째 분사
+###### 2) 두 번째 분사
 ![스크린샷 2023-10-12 오후 2.07.35.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%202.07.35.png)
 
 $$
@@ -588,7 +589,7 @@ $$
 
 <br>
 
-#### (2) 세 번에 나눠서 분사
+##### (2) 세 번에 나눠서 분사
 
 $$
 \begin{align}
@@ -598,7 +599,7 @@ $$
 
 <br>
 
-#### (3) $n$ 번에 나눠서 분사
+##### (3) $n$ 번에 나눠서 분사
 
 $$
 \begin{align}
@@ -608,7 +609,7 @@ $$
 
 <br>
 
-#### (4) 연속으로 분사
+##### (4) 연속으로 분사
 
 $$
 \begin{align}
@@ -622,7 +623,7 @@ $$
 
 <br>
 
-### (iii) 속력 비교
+#### (iii) 속력 비교
 
 $$
 \begin{align}
