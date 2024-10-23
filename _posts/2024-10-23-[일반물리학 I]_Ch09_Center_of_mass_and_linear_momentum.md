@@ -28,7 +28,8 @@ math: true
 <br><br><br>
 
 ## ② 입자계에서 뉴턴 제 2법칙 (Newton's 2nd law for a system of particles)
-##### $\vec{F}_{tot} = M \vec{a}_{CM}$ 유도
+**$\vec{F}_{tot} = M \vec{a}_{CM}$ 유도**
+
 
 $$\begin{align}
 \vec{F}_{tot} &= \sum_{i} \vec{F_i} = \sum_{i} m_i \vec{a_i}
@@ -76,7 +77,8 @@ $$\quad \vec{r}_{CM} = {\int \vec{r} dm \over M}$$
 
 # 2. 선운동량 (Linear Momentum)
 ## ① 입자계의 운동량 (Linear momentum for a system of particles)
-##### $\vec{P}_{tot} = M \vec{v}_{CM}$ 유도
+
+**$\vec{P}_{tot} = M \vec{v}_{CM}$ 유도**
 
 $$
 \begin{align}
