@@ -17,7 +17,7 @@ use_math: true
 # 1. 질량 중심 (Center of Mass, C.M)
 ## ① 정의 (Definition)
 - 입자 위치의 질량에 대한 가중평균
--  \\[\vec{r}_{CM} = { \sum m_i \vec{r_i} \over \sum m_i}\\]
+-  \\[\vec{r_{CM}} = { \sum m_i \vec{r_i} \over \sum m_i}\\]
 ### Example 1: Gravitational potential energy
 생략
 
@@ -54,9 +54,9 @@ use_math: true
 
 ## ③ 연속 분포된 물질 (Continuous matter)의 질량 중심
 - 불연속입자계
-\\[\vec{r}_{CM} = {\sum m_i \vec{r_i} \over M}\\]
+\\[\vec{r_{CM}} = {\sum m_i \vec{r_i} \over M}\\]
 - 연속입자계
-\\[\vec{r}_{CM} = {\int \vec{r} dm \over M}\\]
+\\[\vec{r_{CM}} = {\int \vec{r} dm \over M}\\]
 
 ##### (1) 균일한 막대 (rod)
 ##### (2) 반원 고리 (half-ring)
