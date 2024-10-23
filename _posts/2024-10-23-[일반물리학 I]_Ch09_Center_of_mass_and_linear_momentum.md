@@ -17,7 +17,7 @@ use_math: true
 # 1. 질량 중심 (Center of Mass, C.M)
 ## ① 정의 (Definition)
 - 입자 위치의 질량에 대한 가중평균
--  $$\vec{r}_{CM} = { \sum m_i \vec{r_i} \over \sum m_i}$$
+-  \\[\vec{r}_{CM} = { \sum m_i \vec{r_i} \over \sum m_i}\\]
 ### Example 1: Gravitational potential energy
 생략
 
@@ -26,12 +26,14 @@ use_math: true
 ## ② 입자계에서 뉴턴 제 2법칙 (Newton's 2nd law for a system of particles)
 ##### $\vec{F}_{tot} = M \vec{a}_{CM}$ 유도
 
-$$\begin{align}
+\\[
+\begin{align}
 \vec{F_{tot}} &= \sum_{i} \vec{F_i} = \sum_{i} m_i \vec{a_i}
 \\ & = \sum_{i} m_i \ddot{\vec{r_i}} = \sum_{i} {d^2 \over dt^2} (m_i \vec{r_i})
 \\ & = {d^2 \over dt^2} (\sum_{i} m_i \vec{r_i}) = {d^2 \over dt^2} M \vec{r}_{CM}
 \\ & = M \vec{a}_{CM}
-\end{align}$$
+\end{align}
+\\]
 
 <br><br>
 
@@ -52,9 +54,9 @@ $$\begin{align}
 
 ## ③ 연속 분포된 물질 (Continuous matter)의 질량 중심
 - 불연속입자계
-$$\vec{r}_{CM} = {\sum m_i \vec{r_i} \over M}$$
+\\[\vec{r}_{CM} = {\sum m_i \vec{r_i} \over M}\\]
 - 연속입자계
-$$\vec{r}_{CM} = {\int \vec{r} dm \over M}$$
+\\[\vec{r}_{CM} = {\int \vec{r} dm \over M}\\]
 
 ##### (1) 균일한 막대 (rod)
 ##### (2) 반원 고리 (half-ring)
@@ -72,13 +74,13 @@ $$\vec{r}_{CM} = {\int \vec{r} dm \over M}$$
 # 2. 선운동량 (Linear Momentum)
 ## ① 입자계의 운동량 (Linear momentum for a system of particles)
 ##### $\vec{P}_{tot} = M \vec{v}_{CM}$ 유도
-$$
+\\[
 \begin{align}
 \vec{P}_{tot} &= \sum_{i} \vec{p_i} = \sum_{i} m_i\,\vec{v_i}
 \\ &= \sum_{i} m_i {d\vec{r_i} \over dt} = {d \over dt}(\sum_{i} m_i\,\vec{r_i})
 \\ &= {d \over dt}M\,\vec{r}_{CM} = M\vec{a}_{CM}
 \end{align}
-$$
+\\]
 
 <br><br>
 
@@ -89,7 +91,7 @@ $$
 
 ## ② 입자계의 운동에너지 (Kinetic energy for system of particles)
 ##### $K_{tot} = K_{CM} + K_{rel}$ 유도
-$$
+\\[
 \begin{align}
 K_{tot} &= \sum_{i} m_i \, v_{i}^{2} = \sum_{i} {1\over2}m_{i}(\vec{v_i} \cdot \vec{v_i}) \\
 &= \sum_{i} {1\over2} m_{i}(\vec{v}_{CM} + \vec{v}_{i,\,CM}) \cdot (\vec{v}_{CM} + \vec{v}_{i,\,CM}) \\
@@ -97,11 +99,11 @@ K_{tot} &= \sum_{i} m_i \, v_{i}^{2} = \sum_{i} {1\over2}m_{i}(\vec{v_i} \cdot \
 &= \sum_{i} {1\over2} m_{i}\, v_{CM}^{2} + \sum_{i} {1\over2} m_{i}\, v_{i,\,CM}^{2} + 0 \\
 &= \sum_{i} {1\over2} m_{i}\, v_{CM}^{2} + \sum_{i} {1\over2} m_{i}\, v_{i,\,CM}^{2} = K_{CM} + K_{rel}
 \end{align}
-$$
+\\]
 
 <br>
 
-$$
+\\[
 \begin{align}
 \because 
 \sum_{i} m_i\,\vec{v}_{CM}\cdot \vec{v}_{i,\,CM} &=  \vec{v}_{CM} \cdot \sum_{i}m_i\,\vec{v}_{i,\,CM} \\ 
@@ -109,7 +111,7 @@ $$
 &= \vec{v}_{CM} \cdot ( \sum_{i} m_i\,\vec{v_i} - \sum_{i} m_i\,\vec{v}_{CM} ) \\ 
 &= \vec{v}_{CM} \cdot ( \vec{P}_{tot} -  M \vec{v}_{CM}) = 0
 \end{align}
-$$
+\\]
 
 <br><br>
 
@@ -124,7 +126,7 @@ $$
 # 3. 충돌 (Collision)
 ## ① 탄성 충돌 (Elastic collision)
 
-$$
+\\[
 \begin{align}
 &\begin{cases}
 m_{1}v_{1} + m_{2}v_{2} = m_{1}v'_{1} + m_{2}v'_{2} \\
@@ -138,11 +140,11 @@ m_{1}(v_{1}^{2} - {v'}_{1}^{2}) = m_{2}({v'}_{2}^{2} - v_{2}^{2})
 \nonumber \\
 &\Rightarrow \quad v_{1} + v'_{1} = v'_{2} + v_{2}
 \end{align}
-$$
+\\]
 
 이므로 아래와 같이 쓸 수 있고,
 
-$$
+\\[
 \begin{align}
 &\begin{cases}
 \; v'_2 = v_1 + v'_1 - v_2
@@ -150,19 +152,19 @@ $$
 \; v'_1 = v'_2 + v_2 - v_1
 \end{cases}
 \end{align}
-$$
+\\]
 
 <br>
 
 이를 운동량 보존 식에 대입하여 $v'_1, \;v'_2$ 를 구하면 다음과 같다.
 
 
-$$
+\\[
 \begin{align}
 v'_{1} = \frac{(m_1 - m_2)v_1 + 2m_2 v_2}{m_1 + m_2}, \quad
 v'_{2} = \frac{(m_2 - m_1)v_2 + 2m_1 v_1}{m_1 + m_2}
 \end{align}
-$$
+\\]
 
 
 <br><br>
@@ -176,25 +178,25 @@ $$
 
 ## ② 비탄성 충돌 (Inelastic collision)
 **Ref. Frame:**
-$$
+\\[
 \begin{align}
 \frac{1}{2}m_{1}v_{1}^{2} + \frac{1}{2}m_{2}v_{2}^{2} = \frac{1}{2}m_{1}{v'}_{1}^{2} + \frac{1}{2}m_{2}{v'}_{2}^{2} + Q
 \end{align}
-$$
+\\]
 
 **C.M. Frame:**
 
-$$
+\\[
 \begin{align}
 \frac{1}{2}m_{1}v_{1,\,CM}^{2} + \frac{1}{2}m_{2}v_{2,\,CM}^{2} = \frac{1}{2}m_{1}{v'}_{1,\,CM}^{2} + \frac{1}{2}m_{2}{v'}_{2,\,CM}^{2} + Q_{CM}
 \end{align}
-$$
+\\]
 
 <br>
 
 아래 식들을 고려하여 위 두 식을 빼면 운동량 보존 식이 도출된다.
 
-$$
+\\[
 \begin{align}
 \begin{cases}
 Q = Q_{CM} \\
@@ -202,13 +204,13 @@ v_{i, CM} = v_{i} - v_{CM} \\
 {v'}_{i, CM} = {v'}_{i} - {v'}_{CM} 
 \end{cases}
 \end{align}
-$$
+\\]
 
-$$
+\\[
 \begin{align}
 \therefore m_1 v_1 + m_2 v_2 = m_1 {v'}_1 + m_2 {v'}_2
 \end{align}
-$$
+\\]
 
 그러므로 비탄성 충돌에서 운동량은 보존된다.
 
@@ -234,18 +236,18 @@ Mass $M$, length $L$인 동일한 밧줄이 두 개의 탁자 위에 각각 놓�
 uniform acceleration 운동이다
 
 #### (1) 운동방정식 (equation of motion)
-$$
+\\[
 \begin{align}
 F = \frac{dp}{dt}\,; \\
 (\lambda y )g &= \frac{d}{dt}(\lambda y v) \\
 \Rightarrow gy &= \dot{y}\,v + y\frac{dv}{dt} \\
 &= v^{2} + vy\frac{dv}{dy}
 \end{align}
-$$
+\\]
 
 코시 - 오일러 미분방정식이므로 다음과 같이 해를 가정한다.
 
-$$
+\\[
 \begin{align}
 &v = Ay^{n} \quad \text{대입} \\
 \nonumber \\
@@ -257,22 +259,22 @@ $$
 \nonumber \\
 &\therefore v = \sqrt{\frac{2}{3}gy}
 \end{align}
-$$
+\\]
 
 그러므로 다음과 같이 가속도 $a$를 구할 수 있다.
 
-$$
+\\[
 \begin{align}
 & a = {dv\over dt} = v {dv\over dy} \\
 \nonumber \\
 &\;\;\; = \sqrt{\frac{2}{3}gy} \;\times\; {1\over2} \Big({2\over3}gy\Big)^{-{1\over2}} \Big({2\over3}g\Big) = {1\over3}g
 \end{align}
-$$
+\\]
 
 <br><br>
 
 #### (2) 차원 분석법 (Dimension analysis method)
-$$
+\\[
 \begin{align}
 &\begin{cases}
 \,y = Bgt^{2} \\
@@ -280,9 +282,9 @@ $$
 \,a = \dot{v} = 2Bg 
 \end{cases} \\
 \end{align}
-$$
+\\]
 
-$$
+\\[
 \begin{align}
 & gy = v^{2} + y \dot{v} \quad \text{에 대입} \\
 \nonumber \\
@@ -292,13 +294,12 @@ $$
 \nonumber \\
 & \therefore B = \frac{1}{6}
 \end{align}
-$$
-
+\\]
 
 
 $B = \frac{1}{6}$을 대입하여 $y, v, a$를 구하면 운동방정식을 풀어서 나온 결과와 동일한 결과를 얻을 수 있다.
 
-$$
+\\[
 \begin{align}
 &\begin{cases}
 \,y ={1\over6} g t^{2} \\
@@ -306,15 +307,15 @@ $$
 \,a = {1\over3} g
 &\end{cases}\\
 \end{align}
-$$
+\\]
 
 
 아무튼, 구하려는 것은 실이 다 풀렸을 때 줄의 속도이므로 $y=L$을 대입하여 구할 수 있다.
-$$
+\\[
 \begin{align}
 v = \sqrt{\frac{2}{3}gL}
 \end{align}
-$$
+\\]
 
 <br><br>
 
@@ -322,7 +323,7 @@ $$
 가속도가 증가하는 운동이다.
 
 #### (1) 운동방정식 (equation of motion)
-$$
+\\[
 \begin{align}
 F &= \frac{dp}{dt}\,; \\
 \nonumber \\
@@ -336,19 +337,19 @@ F &= \frac{dp}{dt}\,; \\
 \nonumber \\
 &\therefore v = \sqrt{gL} 
 \end{align}
-$$
+\\]
 
 <br><br>
 
 #### (2) 에너지 보존
 ![스크린샷 2023-10-12 오후 1.41.37.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%201.41.37.png)
-$$
+\\[
 \begin{align}
 K_{i}+U_{i} = K_{f}+U_{f} \;; \\
 &0 = {1\over2}Mv^{2} - {1\over2}MgL \\
 &\therefore\; v = \sqrt{gL}
 \end{align}
-$$
+\\]
 
 - ##### 뭉친 줄 상황에서는 왜 에너지 보존이 안될까?
 - 정지해 있던 뭉친 줄에서 아래 풀어진 줄로 줄이 내려가는 과정을 **완전 비탄성 충돌**로 볼 수 있다.
@@ -359,18 +360,18 @@ $$
 ### (iii) 뭉친 줄에서의 에너지 손실 (energy loss)
 ![스크린샷 2023-10-12 오후 1.42.31.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%201.42.31.png)
 #### (1 $\rightarrow$ 2) 운동량 보존 ( $\because$ 외력 = 0?)
-$$
+\\[
 \begin{align}
 &(\lambda n l) \,v_{n} = (\lambda(n+1)l)\,V \\
 \nonumber \\
 &\Rightarrow \; V = {n \over {n+1}} v_{n}
 \end{align}
-$$
+\\]
 
 사실 이러한 상황에서 운동량 보존을 쓰는 것은 굉장히 짧은 시간 안에 일어나는 것을 무시한다는 가정 하에 이뤄진다. 예를 들어 총알이 박히면서 밀리는 과정이 굉장히 짧아서 외력이 없다 하고 운동량 보존 법칙을 사용하는 것과 비슷하다.
 
 #### (2 $\rightarrow$ 3) 에너지 보존 ($\Delta K + \Delta U = 0$)
-$$
+\\[
 \begin{align}
 & {1\over2}(\lambda(n+1)l)(v_{n+1}^{2} - V^{2})\, - \, (\lambda (n+1)l)gl = 0 \\
 \nonumber \\
@@ -378,13 +379,13 @@ $$
 \nonumber \\
 &V 대입 \;\Rightarrow \;v_{n+1}^{2} = \Big({n\over{n+1}}\Big)^{2} v_{n}^{2} + 2gl\\
 &\qquad\qquad\qquad\;\;=\Big(1+{1\over{n}}\Big)^{-2} v_{n}^{2} \,+\,2gl \\
-&\qquad\qquad\qquad\;\;\simeq \Big(1-{2\over{n}}\Big) v_{n}^{2} + 2gl \qquad (n>>1) \\
+&\qquad\qquad\qquad\;\;\simeq \Big(1-{2\over{n}}\Big) v_{n}^{2} + 2gl \qquqqu (n>>1) \\
 \end{align}
-$$
+\\]
 
 <br>
 
-$$
+\\[
 \begin{align}
 &\Rightarrow\; v_{n+1}^{2} - v_{n}^{2} = -{2\over n}v_{n}^{2} + 2gl  \\
 \nonumber \\
@@ -394,7 +395,7 @@ $$
 \nonumber \\
 &\Rightarrow\; {1\over2}y {\frac{dv^{2}}{dy}} \,+\, v^{2} = gy \\
 \end{align}
-$$
+\\]
 
 <br>
 
@@ -402,23 +403,23 @@ $$
 그런데
 <br>
 
-$$
+\\[
 \begin{align}
 v{\frac{dy}{dy}} = {1\over2}{\frac{dv^{2}}{dy}} \quad(Since, {\frac{dv^2}{dy}} = 2v{\frac{dv}{dy}})
 \end{align}
-$$
+\\]
 
 <br>
 
 이므로 뭉친 줄 상황에서 운동방정식을 통해 구한 미분방정식에 위를 대입하면 동일한 미분방정식이 나온다.
 
-$$
+\\[
 \begin{align}
 & gy = v^{2} + vy{\frac{dv}{dt}} 에\,대입 \\
 \nonumber \\
 & \rightarrow \; gy = v^{2} + {1\over2}y{\frac{dv^{2}}{dy}}
 \end{align}
-$$
+\\]
 
 <br>
 
@@ -438,12 +439,12 @@ $$
 
 ![스크린샷 2023-10-12 오후 1.41.08.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%201.41.08.png)
 
-$$
+\\[
 \begin{align}
 &w_{A} = w_{H} + w_{L} + w_{air} \\
 &w_{B} = w_{H} + w_{L} + F \\
 \end{align}
-$$
+\\]
 
 - $w_{H}$ : 모래 시계 위쪽에 있는 모래의 무게
 - $w_{L}$ : 모래 시계 아래쪽에 있는 모래의 무게
@@ -459,34 +460,34 @@ $w_{air}$과 $F$의 크기에 따라 결과가 정해진다.
 
 ### (ii) $\Delta t$ 동안 바닥에 작용하는 충격력 $F$
 - (1) 모래가 바닥에 닿을 때 속력
-$$
+\\[
 \begin{align}
 v = \sqrt{2gh}
 \end{align}
-$$
+\\]
 - (2) 충격력
-$$
+\\[
 \begin{align}
 F = {\frac{\Delta p}{\Delta t}} = {\frac{\Delta m}{\Delta t}} \sqrt{2gh}
 \end{align}
-$$
+\\]
 
 ### (iii) 공기 중에 있는 모래 무게 $w_{air}$
 
 - (1) 모래의 질량
-$$
+\\[
 \begin{align}
 &\Delta m : \Delta t = \Delta m_{air} : \sqrt{\frac{2h}{g}} \\
 \nonumber \\
 &\rightarrow\, \Delta m_{air} = {\frac{\Delta m}{\Delta t}} \sqrt{\frac{2h}{g}}
 \end{align}
-$$
+\\]
 - (2) 모래의 무게
-$$
+\\[
 \begin{align}
 w_{air} =  {\frac{\Delta m}{\Delta t}} \sqrt{2gh}
 \end{align}
-$$
+\\]
 
 <br>
 
@@ -506,13 +507,13 @@ $F = w_{air}$ 이므로 $w_{A} = w_{B}$ 이다.
 ### (i) 한꺼번에 분사
 ![스크린샷 2023-10-12 오후 1.40.46.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%201.40.46.png)
 운동량 보존 법칙을 사용하여 연료 분사 후 로켓의 속도 $v_{A}$를 구할 수 있다:
-$$
+\\[
 \begin{align}
 &Mv = m(v_{A} - u) + (M-m)v_{A} \\
 \nonumber \\
 &\Rightarrow\; v_{A} = {\frac{Mv + mu}{M}} = v + {m\over M}u
 \end{align}
-$$
+\\]
 
 <br>
 
@@ -520,18 +521,18 @@ $$
 #### (1) 두 번에 나눠서 분사
 ##### 1) 첫 번째 분사
 ![스크린샷 2023-10-12 오후 2.07.24.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%202.07.24.png)
-$$
+\\[
 \begin{align}
 &Mv = {m\over2}(v' - u) + (M-{m\over2})v' \\
 \nonumber \\
 &\Rightarrow\; v' = {\frac{Mv + {m\over2}u}{M}} = v + {m\over 2M}u
 \end{align}
-$$
+\\]
 
 ##### 2) 두 번째 분사
 ![스크린샷 2023-10-12 오후 2.07.35.png](/assets/img/2024-10-23-1/스크린샷%202023-10-12%20오후%202.07.35.png)
 
-$$
+\\[
 \begin{align}
 &(M-{m\over2})v' = {m\over2}(v' - u) + (M-{m\over2})v'' \\
 \nonumber \\
@@ -539,30 +540,30 @@ $$
 \nonumber \\
 &\qquad\quad = v \,+\, \Big({1\over 2M} + {1\over 2M-m} \Big)mu \\
 \end{align} 
-$$
+\\]
 
 <br>
 
 #### (2) 세 번에 나눠서 분사
-$$
+\\[
 \begin{align}
 v''' = v \,+\, \Big({1\over 3M} + {1\over 2M-m} + {1\over 3M-2m}\Big)mu
 \end{align}
-$$
+\\]
 
 <br>
 
 #### (3) $n$ 번에 나눠서 분사
-$$
+\\[
 \begin{align}
 v_{n} = v\, + \, mu \sum_{k=1}^{n} {1\over nM-(k-1)m}
 \end{align}
-$$
+\\]
 
 <br>
 
 #### (4) 연속으로 분사
-$$
+\\[
 \begin{align}
 &\lim_{n \to \infty} v_{n} = v + mu\int_{0}^{1} {dx\over M-mx} \\
 \nonumber \\
@@ -570,38 +571,35 @@ $$
 \nonumber \\
 &\qquad\quad\;\;= v \,+\,u\ln \Big({M\over M-m}\Big) \\
 \end{align}
-$$
+\\]
 
 <br>
 
 ### (iii) 속력 비교
-$$
+\\[
 \begin{align}
 &v_{A} = v + {m\over M}u \\
 &v_{B} = v + u\ln\Big({M\over M-m}\Big) \\
 \end{align}
-$$
+\\]
 
 <br>
 
-$$
+\\[
 \begin{align}
 &\ln \Big({M\over M-m}\Big) = -\ln \Big(1-{m\over M}\Big) \\
 \nonumber \\
 &\qquad\qquad\qquad = -\Big[-{m\over M} - -{m^{2}\over 2M^{2}} - \cdots \Big] \\
 \nonumber \\
-&\qquad\qquad\qquad = {m\over M} + {m^{2}\over 2M^{2}} + \cdots \\
-\nonumber \\
-&\qquad\qquad\qquad > {m\over M}
+&\qquad\qquqqu > {m\over M}
 \end{align}
-$$
+\\]
 
-$$
+\\[
 \begin{align}
 &\nonumber\Big(Since,\; -1< x\le 1: \\
-&\nonumber\qquad\qquad\ln (1+x) = x - {x^{2}\over 2!} + {x^{3}\over 3!} +\cdots \Big)\\
+&\nonumber\qquqquln (1+x) = x - {x^{2}\over 2!} + {x^{3}\over 3!} +\cdots \Big)\\
 \nonumber \\
 &\therefore \, v_{A} < v_{B}
 \end{align}
-$$
-
+\\]
