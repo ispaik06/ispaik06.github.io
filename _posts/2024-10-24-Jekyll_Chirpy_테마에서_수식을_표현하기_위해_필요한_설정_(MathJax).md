@@ -1,6 +1,6 @@
 ---
 title: "Jekyll Chirpy 테마에서 수식을 표현하기 위해 필요한 설정 (MathJax)"
-date: 2024-10-24 00:45:00 +09:00
+date: 2024-10-24 01:20:00 +09:00
 categories: [Github Pages]
 tags: [Chirpy, MathJax, LaTeX]
 math: true
