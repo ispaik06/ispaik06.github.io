@@ -154,12 +154,14 @@ $$
 
 이를 운동량 보존 식에 대입하여 $v'_1, \;v'_2$ 를 구하면 다음과 같다.
 
+
 $$
 \begin{align}
-v'_{1} = {{(m_1 - m_2)v_1 + 2m_2 v_2}\over{m_1 + m_2}}, \quad 
-v'_{2} = {{(m_2 - m_1)v_2 + 2m_1 v_1}\over{m_1 + m_2}}
+v'_{1} = \frac{(m_1 - m_2)v_1 + 2m_2 v_2}{m_1 + m_2}, \quad
+v'_{2} = \frac{(m_2 - m_1)v_2 + 2m_1 v_1}{m_1 + m_2}
 \end{align}
 $$
+
 
 <br><br>
 
@@ -261,7 +263,7 @@ $$
 \begin{align}
 & a = {dv\over dt} = v {dv\over dy} \\
 \nonumber \\
-&\;\;\; = \sqrt{{2\over 3}gy} \;\times\; {1\over2} \Big({2\over3}gy\Big)^{-{1\over2}} \Big({2\over3}g\Big) = {1\over3}g
+&\;\;\; = \sqrt{\frac{2}{3}gy} \;\times\; {1\over2} \Big({2\over3}gy\Big)^{-{1\over2}} \Big({2\over3}g\Big) = {1\over3}g
 \end{align}
 $$
 
@@ -298,7 +300,7 @@ $$
 \begin{align}
 &\begin{cases}
 \,y ={1\over6} g t^{2} \\
-\,v = {1\over3} g t ={1\over3} g \sqrt{{6y \over g}}\\
+\,v = {1\over3} g t ={1\over3} g \sqrt{\frac{6y}{g}}\\
 \,a = {1\over3} g
 &\end{cases}\\
 \end{align}
@@ -308,7 +310,7 @@ $$
 아무튼, 구하려는 것은 실이 다 풀렸을 때 줄의 속도이므로 $y=L$을 대입하여 구할 수 있다.
 $$
 \begin{align}
-v = \sqrt{{2\over3}gL}
+v = \sqrt{\frac{2}{3}gL}
 \end{align}
 $$
 
@@ -384,11 +386,11 @@ $$
 \begin{align}
 &\Rightarrow\; v_{n+1}^{2} - v_{n}^{2} = -{2\over n}v_{n}^{2} + 2gl  \\
 \nonumber \\
-&\Rightarrow\; {{v_{n+1}^{2} - v_{n}^{2}}\over{l}} = -{2\over nl}v_{n}^{2} + 2g  \\
+&\Rightarrow\; {\frac{v_{n+1}^{2} - v_{n}^{2}}{l}} = -{2\over nl}v_{n}^{2} + 2g  \\
 \nonumber \\
-&\Rightarrow\; {{dv^{2}}\over{dy}} = -{2\over{y}}v^{2} + 2g \\
+&\Rightarrow\; {\frac{dv^{2}}{dy}} = -{2\over{y}}v^{2} + 2g \\
 \nonumber \\
-&\Rightarrow\; {1\over2}y {{dv^{2}}\over{dy}} \,+\, v^{2} = gy \\
+&\Rightarrow\; {1\over2}y {\frac{dv^{2}}{dy}} \,+\, v^{2} = gy \\
 \end{align}
 $$
 
@@ -400,7 +402,7 @@ $$
 
 $$
 \begin{align}
-v{{dy}\over{dy}} = {1\over2}{{dv^{2}}\over{dy}} \quad(Since, {{dv^2}\over{dy}} = 2v{{dv}\over{dy}})
+v{\frac{dy}{dy}} = {1\over2}{\frac{dv^{2}}{dy}} \quad(Since, {\frac{dv^2}{dy}} = 2v{\frac{dv}{dy}})
 \end{align}
 $$
 
@@ -410,9 +412,9 @@ $$
 
 $$
 \begin{align}
-& gy = v^{2} + vy{{dv}\over{dt}} 에\,대입 \\
+& gy = v^{2} + vy{\frac{dv}{dt}} 에\,대입 \\
 \nonumber \\
-& \rightarrow \; gy = v^{2} + {1\over2}y{{dv^{2}}\over{dy}}
+& \rightarrow \; gy = v^{2} + {1\over2}y{\frac{dv^{2}}{dy}}
 \end{align}
 $$
 
@@ -462,7 +464,7 @@ $$
 - (2) 충격력
 $$
 \begin{align}
-F = {{\Delta p}\over{\Delta t}} = {{\Delta m}\over{\Delta t}} \sqrt{2gh}
+F = {\frac{\Delta p}{\Delta t}} = {\frac{\Delta m}{\Delta t}} \sqrt{2gh}
 \end{align}
 $$
 
@@ -471,15 +473,15 @@ $$
 - (1) 모래의 질량
 $$
 \begin{align}
-&\Delta m : \Delta t = \Delta m_{air} : \sqrt{{2h}\over {g}} \\
+&\Delta m : \Delta t = \Delta m_{air} : \sqrt{\frac{2h}{g}} \\
 \nonumber \\
-&\rightarrow\, \Delta m_{air} = {{\Delta m}\over{\Delta t}} \sqrt{{2h}\over{g}}
+&\rightarrow\, \Delta m_{air} = {\frac{\Delta m}{\Delta t}} \sqrt{\frac{2h}{g}}
 \end{align}
 $$
 - (2) 모래의 무게
 $$
 \begin{align}
-w_{air} =  {{\Delta m}\over{\Delta t}} \sqrt{2gh}
+w_{air} =  {\frac{\Delta m}{\Delta t}} \sqrt{2gh}
 \end{align}
 $$
 
@@ -505,7 +507,7 @@ $$
 \begin{align}
 &Mv = m(v_{A} - u) + (M-m)v_{A} \\
 \nonumber \\
-&\Rightarrow\; v_{A} = {{Mv + mu}\over{M}} = v + {m\over M}u
+&\Rightarrow\; v_{A} = {\frac{Mv + mu}{M}} = v + {m\over M}u
 \end{align}
 $$
 
@@ -519,7 +521,7 @@ $$
 \begin{align}
 &Mv = {m\over2}(v' - u) + (M-{m\over2})v' \\
 \nonumber \\
-&\Rightarrow\; v' = {{Mv + {m\over2}u}\over{M}} = v + {m\over 2M}u
+&\Rightarrow\; v' = {\frac{Mv + {m\over2}u}{M}} = v + {m\over 2M}u
 \end{align}
 $$
 
@@ -530,7 +532,7 @@ $$
 \begin{align}
 &(M-{m\over2})v' = {m\over2}(v' - u) + (M-{m\over2})v'' \\
 \nonumber \\
-&\Rightarrow\; v'' = {{(M-{m\over2})v' + {m\over2}u}\over{M-{m\over2}}} = v' + {m\over 2M-m}u \\
+&\Rightarrow\; v'' = {\frac{(M-{m\over2})v' + {m\over2}u}{M-{m\over2}}} = v' + {m\over 2M-m}u \\
 \nonumber \\
 &\qquad\quad = v \,+\, \Big({1\over 2M} + {1\over 2M-m} \Big)mu \\
 \end{align} 

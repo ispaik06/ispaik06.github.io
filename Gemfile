@@ -11,3 +11,7 @@ end
 
 gem 'jekyll-seo-tag'
 gem 'jekyll-feed'
+gem 'logger'
+gem 'csv'
+gem 'base64'
+
