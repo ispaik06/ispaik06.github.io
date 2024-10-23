@@ -9,7 +9,7 @@ math: true
 
 **세종과학예술영재학교 박동규 선생님의 `일반물리학 I` 수업 자료 일부입니다.**
 
-수업 필기본 PDF 파일은 [여기](https://github.com/ispaik06/ispaik06.github.io/tree/main/assets/other%20files)에서 확인하실 수 있습니다.
+수업 필기본 PDF 파일은 [여기](https://github.com/ispaik06/ispaik06.github.io/blob/main/assets/other%20files/일반물리학1_중간범위_박동규T.pdf)에서 확인하실 수 있습니다. 전체 내용과 풀이가 들어있습니다.
 
 
 LaTeX 문법 참고 자료는 [이거](https://github.com/ispaik06/ispaik06.github.io/blob/main/assets/other%20files/The%20Comprehensive%20LaTex%20Symbol%20List.pdf) 참고하세요.
@@ -29,7 +29,7 @@ LaTeX 문법 참고 자료는 [이거](https://github.com/ispaik06/ispaik06.gith
 <br><br><br>
 
 ### ② 입자계에서 뉴턴 제 2법칙 (Newton's 2nd law for a system of particles)
-**$\vec{F}_{tot} = M \vec{a}_{CM}$ 유도**
+$\vec{F}_{tot} = M \vec{a}_{CM}$ 유도:
 
 
 $$\begin{align}
@@ -79,7 +79,7 @@ $$\quad \vec{r}_{CM} = {\int \vec{r} dm \over M}$$
 ## 2. 선운동량 (Linear Momentum)
 ### ① 입자계의 운동량 (Linear momentum for a system of particles)
 
-**$\vec{P}_{tot} = M \vec{v}_{CM}$ 유도**
+$\vec{P}_{tot} = M \vec{v}_{CM}$ 유도:
 
 $$
 \begin{align}
