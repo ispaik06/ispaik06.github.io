@@ -43,7 +43,7 @@ incremental: false
 
 #### 2. **`_includes/js-selector.html` 파일 수정**
 
-처음에 `js-selector.html` 파일을 보면 {% if page.math %} 로 나오는 부분이 있을 것이다. 그 부분을 아래 내용으로 대체하자.
+처음에 `js-selector.html` 파일을 보면 `{% if page.math %}` 로 나오는 부분이 있을 것이다. 그 부분을 아래 내용으로 대체하자.
 
 ```html
 {% if page.math %}
