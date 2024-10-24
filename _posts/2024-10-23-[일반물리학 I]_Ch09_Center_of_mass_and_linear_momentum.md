@@ -29,7 +29,10 @@ LaTeX 문법 참고 자료는 [이거](https://github.com/ispaik06/ispaik06.gith
 <br><br><br>
 
 ### ② 입자계에서 뉴턴 제 2법칙 (Newton's 2nd law for a system of particles)
+
 $\vec{F}_{tot} = M \vec{a}_{CM}$ 유도:
+
+이거 왜 안됨?
 
 
 $$\begin{align}
