@@ -30,9 +30,9 @@ LaTeX 문법 참고 자료는 [이거](https://github.com/ispaik06/ispaik06.gith
 
 ### ② 입자계에서 뉴턴 제 2법칙 (Newton's 2nd law for a system of particles)
 
-$ {\vec{F}}_{tot} = M {\vec{a}}_{CM}$ 유도:
-
-이거 왜 안됨?
+$$
+ \vec{F}_{tot} = M \vec{a}_{CM} \ 유도\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad
+ $$
 
 
 $$\begin{align}
@@ -82,7 +82,10 @@ $$\quad \vec{r}_{CM} = {\int \vec{r} dm \over M}$$
 ## 2. 선운동량 (Linear Momentum)
 ### ① 입자계의 운동량 (Linear momentum for a system of particles)
 
-$\vec{P}_{tot} = M \vec{v}_{CM}$ 유도:
+
+$$
+ \vec{P}_{tot} = M \vec{v}_{CM} \ 유도\qquad\qquad\qquad\qquad\qquad\qquad\qquad\qquad
+ $$
 
 $$
 \begin{align}
