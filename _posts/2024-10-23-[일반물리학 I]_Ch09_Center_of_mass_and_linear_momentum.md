@@ -7,6 +7,10 @@ tags: [Study, Physics]
 math: true
 ---
 
+시험 기간에 심심해서 마크다운 연습하려고 만든 파일임..
+
+<br><br>
+
 **세종과학예술영재학교 박동규 선생님의 `일반물리학 I` 수업 자료 일부입니다.**
 
 수업 필기본 PDF 파일은 [여기](https://github.com/ispaik06/ispaik06.github.io/blob/main/assets/other%20files/일반물리학1_중간범위_박동규T.pdf)에서 확인하실 수 있습니다. 전체 내용과 풀이가 들어있습니다.
