@@ -118,7 +118,7 @@ git push origin main
 
 
 
-branch와 remote에 대해서는 [GitHub&Git: branch와 remote에 대한 자세한 설명](https://youtube.com)를 참고하자.
+branch와 remote에 대해서는 [GitHub&Git: branch와 remote에 대한 자세한 설명](https://ispaik06.github.io/posts/GitHub_&_Git_branch와_remote에_대한_자세한_설명/)를 참고하자.
 
 ---
 
