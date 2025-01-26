@@ -61,7 +61,7 @@ git init
 
 ## 3. Git의 명령어와 핵심 개념
 
-Git의 명령어에 익숙해지기 전에 자주 나오는 기본 개념들을 알아보자. add, commit, push는 의미만 알아보고 실제 사용법은 [4. Git 워크플로우 (로컬 저장소에서의 작업)](##4.-Git-워크플로우-(로컬-저장소에서의-작업))에서부터 설명한다. 
+Git의 명령어에 익숙해지기 전에 자주 나오는 기본 개념들을 알아보자. add, commit, push는 의미만 알아보고 실제 사용법은 [4. Git 워크플로우 (로컬 저장소에서의 작업)](#git-workflow)에서부터 설명한다. 
 
 ### 1. git add와 스테이징(Staging) 개념 
 
@@ -124,7 +124,7 @@ branch와 remote에 대해서는 [GitHub&Git: branch와 remote에 대한 자세�
 
 
 
-## 4. Git 워크플로우 (로컬 저장소에서의 작업)
+## 4. Git 워크플로우 (로컬 저장소에서의 작업) {#git-workflow}
 
 1. ### **파일 상태 확인**
 
@@ -205,7 +205,7 @@ git push -u origin main  # main 브랜치를 원격 저장소로 푸시
 
 - push를 하려고 하면 GitHub 사용자의 아이디와 비밀번호를 묻는다. 이때 중요한 것은 비밀번호가 계정의 비밀번호가 아니라 Token을 입력해야 한다. Token을 발급받는 방법은 다음과 같다. 
   - GitHub에서 프로필 아이콘을 클릭하여 `Settings`으로 이동한다. 왼쪽 하단에 `Developer Settings`를 클릭하고 `Personal access tokens`를 클릭해서 새로운 Token을 만들 수 있다. 나는 `Tokens(classic)`에서 `Generate new token`을 클릭했다. 그러면 권한을 부여하는 체크박스 여러 개가 나올텐데, 거기서는 repository와 user만 체크했다. 자세한 내용은 알아서 구글링 ㄱㄱ.
-- push/pull 할 때마다 매번 Token을 입력하기 귀찮으면 GitHub SSH 설정을 해주면 된다. (귀찮으니까 하자.) [7. GitHub SSH 설정](##7.-GitHub-SSH-설정)
+- push/pull 할 때마다 매번 Token을 입력하기 귀찮으면 GitHub SSH 설정을 해주면 된다. (귀찮으니까 하자.) [7. GitHub SSH 설정](#github-ssh)
 
 
 
@@ -272,7 +272,7 @@ git push origin main
 
 
 
-## 7. GitHub SSH 설정
+## 7. GitHub SSH 설정 {#github-ssh}
 
 **SSH**는 GitHub에서 사용하는 보안 프로토콜로 일종의 ''전자열쇠''라고 생각하면 된다. (통신 프로토콜 **SSH(Secure Shell)**이랑은 다른 것이다.)
 
