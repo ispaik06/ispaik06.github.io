@@ -8,7 +8,7 @@ math: true
 
 
 
-[1. branch와 remote가 무엇인가?](#1)에서는 Git의 초기설정에서 GitHub를 연결하는 초반 워크플로우를 이해하기 위한 branch와 remote의 개념만 정리했다. branch를 추가하고 이를 활용하기 위해 필요한 자세한 내용은 [2. 로컬에서 branch를 추가해서 활용하는 법](#2)에서부터 나온다.
+[1. branch와 remote가 무엇인가?](#branchandremote)에서는 Git의 초기설정에서 GitHub를 연결하는 초반 워크플로우를 이해하기 위한 branch와 remote의 개념만 정리했다. branch를 추가하고 이를 활용하기 위해 필요한 자세한 내용은 [2. 로컬에서 branch를 추가해서 활용하는 법](#addbranch)에서부터 나온다.
 
 ---
 
@@ -16,7 +16,7 @@ math: true
 
 
 
-## 1. branch와 remote가 무엇인가?  {#1}
+## 1. branch와 remote가 무엇인가?  {#branchandremote}
 
 ### 1. branch란?
 
@@ -101,7 +101,7 @@ branch와 remote에 대한 기본 워크플로우는 [5. GitHub과 연결하기]
 
 
 
-## 2. 로컬에서 branch를 추가해서 활용하는 법  {#2}
+## 2. 로컬에서 branch를 추가해서 활용하는 법  {#addbranch}
 
 로컬에서 브랜치를 여러 개 만들어서 작업을 분리하면 다음과 같은 장점이 있다.
 
