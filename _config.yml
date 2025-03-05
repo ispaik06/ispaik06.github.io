@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: ispaik06 # the main title
 
-tagline: SASA 8th # it will display as the sub-title
+tagline: Just a Learning Journey # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  robot, robotics, Arduino, Raspberry Pi
+  My personal learning journal, where I record and share what I explore along the way.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -35,14 +35,14 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Inseong Paik
-  email: ispaik0602@gmail.com # change to your email address
+  email: ispaik06@kaist.ac.kr # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/ispaik06 # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/inseong-paik-7b2982354/
 
 # Site Verification Settings
 webmaster_verifications:
