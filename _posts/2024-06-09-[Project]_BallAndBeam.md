@@ -12,7 +12,10 @@ sitemap:
 
 ![BallAndBeam.png](/assets/img/BallAndBeam.png)
 
-[`https://www.youtube.com/watch?v=ehPzKYCmSYc`](https://www.youtube.com/watch?v=ehPzKYCmSYc)
+
+- **Shorts:** ['https://www.youtube.com/shorts/rs6phDzltpg'](https://www.youtube.com/shorts/rs6phDzltpg)
+
+- **Video:** [`https://www.youtube.com/watch?v=ehPzKYCmSYc`](https://www.youtube.com/watch?v=ehPzKYCmSYc)
 
 
 ---
