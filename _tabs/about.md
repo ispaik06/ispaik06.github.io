@@ -43,6 +43,6 @@ This blog is a place where I document and share what I learn along the way.
 
 ## 📬 Connect with Me
 - **GitHub:** [github.com/ispaik06](https://github.com/ispaik06)
-- **Email:** [ispaik06@kaist.ac.kr](ispaik06@kaist.ac.kr)
+- **Email:** **ispaik06@kaist.ac.kr**
 - **LinkedIn:** [Inseong Paik](https://www.linkedin.com/in/inseong-paik-7b2982354/)
 - **Instagram:** [@_ispaik.0](https://www.instagram.com/_ispaik.0/)
