@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# About Me
+## 🌟 About Me
 
 Hello! I am **Inseong Paik**, and I am passionate about robotics projects and embedded systems. I am majoring in Mechanical Engineering with a double major in Electrical Engineering. (Currently a freshmen)
 This blog is a place where I document and share what I learn along the way.
