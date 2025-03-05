@@ -14,10 +14,11 @@ This blog is a place where I document and share what I learn along the way.
 
 
 ## 🎓 Education
-| '' | '' |
-|------|------------|
+
+| Year              | Institution |
+|------------------|------------------|
 | **2025 – Present** | [**KAIST**](https://www.kaist.ac.kr/en/) (*Korea Advanced Institute of Science and Technology*) |
-| **2022 – 2024** | [**SASA**](https://sasa.sjeduhs.kr/sasa-s/main.do?sso=ok) (*Sejong Academy of Science and Arts*) | 
+| **2022 – 2024**   | [**SASA**](https://sasa.sjeduhs.kr/sasa-s/main.do?sso=ok) (*Sejong Academy of Science and Arts*) |
 
 ---
 
