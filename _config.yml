@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: ispaik06 # the main title
 
-tagline: Just a Learning Journey # it will display as the sub-title
+tagline:  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   My personal learning journal, where I record and share what I explore along the way.
