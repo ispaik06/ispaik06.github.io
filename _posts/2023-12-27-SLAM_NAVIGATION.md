@@ -2,7 +2,7 @@
 title: "[Project] SLAM_NAVIGATION"
 date: 2023-11-29 23:02:00 +09:00
 categories: [Project]
-tags: [ROS, SLAM]
+tags: [ROS 2, SLAM]
 ---
 
 TBD
