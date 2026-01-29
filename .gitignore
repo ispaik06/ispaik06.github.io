@@ -28,3 +28,4 @@ package-lock.json
 Gemfile.lock
 
 .DS_STORE
+**/.DS_Store
