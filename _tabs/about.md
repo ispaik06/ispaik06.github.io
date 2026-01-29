@@ -15,17 +15,17 @@ This blog is a place where I document and share what I learn along the way.
 
 ## 🎓 Education
 
-| Year              | Institution |
-|------------------|------------------|
-| **2025 – Present** | [**KAIST**](https://www.kaist.ac.kr/en/) (*Korea Advanced Institute of Science and Technology*) |
-| **2022 – 2024**   | [**SASA**](https://sasa.sjeduhs.kr/sasa-s/main.do?sso=ok) (*Sejong Academy of Science and Arts*) |
+| Year               | Institution                                                                                      |
+| ------------------ | ------------------------------------------------------------------------------------------------ |
+| **2025 – Present** | [**KAIST**](https://www.kaist.ac.kr/en/) (*Korea Advanced Institute of Science and Technology*)  |
+| **2022 – 2024**    | [**SASA**](https://sasa.sjeduhs.kr/sasa-s/main.do?sso=ok) (*Sejong Academy of Science and Arts*) |
 
 ---
 
 ## 🛠 Tech Stack & Interests
 - **Languages:** Python, C++, MATLAB
-- **Frameworks:** ROS, Gazebo, TensorFlow, PyTorch
-- **Interests:** Robotics(Locomotion of Legged robot), Control, Embedded systems, Reinforcement Learning
+- **Frameworks:** ROS, Isaac Sim/Lab, Gazebo, PyTorch
+- **Interests:** Robotics(Locomotion of Legged robot), Control, Embedded systems, Reinforcement Learning, Imitation Learning, VLA
 
 
 ---
