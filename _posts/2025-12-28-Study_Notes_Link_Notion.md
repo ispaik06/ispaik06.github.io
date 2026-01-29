@@ -1,5 +1,5 @@
 ---
-title: "Study Notes Link: Notion"
+title: "Study Notes Link (Notion)"
 date: 2025-12-28 03:01:54 +09:00
 categories: [Archive]
 tags: [Notion]
