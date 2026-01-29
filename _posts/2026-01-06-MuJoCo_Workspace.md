@@ -6,8 +6,9 @@ tags: [GitHub, Git]
 math: true
 ---
 
+(https://github.com/ispaik06/mj_ws)[https://github.com/ispaik06/mj_ws]
 
-# (mj_ws)[https://github.com/ispaik06/mj_ws]
+# mj_ws
 
 A lightweight MuJoCo RL workspace inspired by the IsaacLab workflow.
 
