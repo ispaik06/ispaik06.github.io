@@ -1,8 +1,8 @@
 ---
 title: "MuJoCo Workspace"
 date: 2026-01-06 02:00:00 +09:00
-categories: [GitHub]
-tags: [GitHub, Git]
+categories: [MuJoCo]
+tags: [GitHub, MuJoCo]
 math: true
 ---
 
