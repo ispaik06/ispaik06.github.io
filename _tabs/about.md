@@ -133,7 +133,7 @@ Links: [Demo Video](https://www.youtube.com/watch?v=9mz6idaNPG8)
 If you are browsing the site for technical content first, these are good entry points:
 
 - [MuJoCo workspace notes]({% post_url 2026-01-06-MuJoCo_Workspace %})
-- [ROS 2 communication overview]({% post_url 2024-11-16-ROS 2의 시스템의 기본 통신 방식 %})
+- [ROS 2 communication overview](/posts/ROS-2의-시스템의-기본-통신-방식/)
 - [Indoor SLAM / navigation build log]({% post_url 2023-12-27-SLAM_NAVIGATION %})
 - [Ball and Beam control project]({% post_url 2024-06-09-[Project]_BallAndBeam %})
 
