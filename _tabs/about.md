@@ -4,11 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-## Inseong Paik
+## Inseong (Joseph) Paik
 
-> Robotics engineer in training, building control-heavy systems that have to work in the loop, not just look good on paper.
-
-I study **Mechanical Engineering** at [**KAIST**](https://www.kaist.ac.kr/en/) with a double major in **Electrical Engineering**. My work sits at the intersection of **robot dynamics**, **control**, **embedded systems**, and **learning-based robotics**.
+I study **Mechanical Engineering** at [**KAIST**](https://www.kaist.ac.kr/en/) with a double major in **Electrical Engineering**. My work focuses on **robot dynamics**, **control**, **embedded systems**, and **learning-based robotics**, with increasing attention to embodied systems that tie perception, decision-making, and physical interaction into one stack.
 
 This page is the compact version of what I build and how I work. The blog itself is where I keep the longer notes, implementation details, and project logs.
 
@@ -18,7 +16,7 @@ This page is the compact version of what I build and how I work. The blog itself
 
 - **Legged robotics:** humanoid locomotion, MPC, contact dynamics, whole-body behavior
 - **Robot learning:** reinforcement learning, imitation learning, vision-conditioned policies
-- **Field robotics:** navigation, perception, multi-sensor integration, system bring-up
+- **VLA / Physical AI:** vision-language-action systems, embodied intelligence, real-world robot behavior
 - **Real systems:** getting hardware, firmware, control, and software to cooperate under constraints
 
 ---
@@ -78,7 +76,7 @@ Links: [Demo Video](https://www.youtube.com/watch?v=ZDiZ3Mzl4nE) · [Related Blo
 
 Directed the design and construction of an articulated self-balancing robot, coordinating the mechanical structure, actuator integration, and embedded control implementation.
 
-### Indoor Navigation SLAM Robot System
+### Acquisition of Fundamental SLAM Materials for Implementing Indoor Navigation Service in School Environments and Establishment of Mobile Robot Driving System
 **Mar 2023 - Dec 2023** · Personal Project
 
 Built a mobile robot system from scratch using **ROS 2**, **Raspberry Pi**, and **Arduino** for indoor mapping and navigation experiments in school environments.
@@ -101,12 +99,20 @@ Links: [Demo Video](https://www.youtube.com/watch?v=9mz6idaNPG8)
 
 ## Leadership & Activities
 
-### KAIST MR Robotics Club
-**Project Team Leader** · **2025 - 2026**
+### KAIST MR Robotics Club (2025 - 2026)
+**Regular Project Team Lead (2025)**  
+**Software & Science Team Member, URC 2026**
 
-- Represented KAIST at the **2026 University Rover Challenge (URC)** in Utah.
-- Led system development for autonomous navigation and mission execution.
-- Finished **22nd globally** with the team.
+- In **2025**, led a regular club project to design and build an **articulated self-balancing robot**, coordinating system integration across mechanics, actuation, and embedded control.
+- As a **Software & Science** team member for **URC 2026**, contributed to rover development and mission systems for KAIST's University Rover Challenge team.
+- The team placed **22nd globally in its first year reaching the URC finals**, a strong result for a first-year finals run.
+
+### SASA R.O.G (Robotics Club)
+**President (2022 - 2023)**
+
+- Organized foundational robotics education covering **Arduino** and **Raspberry Pi** for club members.
+- Ran team-based robotics projects, helping members move from basic embedded practice to complete working systems.
+- Operated robotics booths during **SASA public events**, presenting projects and engaging visitors through demos and explanations.
 
 ---
 
