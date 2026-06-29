@@ -23,10 +23,10 @@ This page is the compact version of what I build and how I work. The blog itself
 
 ## Education
 
-| Period | Institution | Program | Notes |
-| --- | --- | --- | --- |
-| **Feb 2025 - Present** | [**KAIST**](https://www.kaist.ac.kr/en/) | B.S. in Mechanical Engineering, Double Major in Electrical Engineering | GPA **4.10 / 4.30** |
-| **Mar 2022 - Jan 2025** | [**SASA**](https://sasa.sjeduhs.kr/sasa-s/main.do?sso=ok) | Mechatronics, Robotics, and Automation Engineering | GPA **4.18 / 4.30** |
+| Period                  | Institution                                               | Program                                                                | Notes               |
+| ----------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------- |
+| **Feb 2025 - Present**  | [**KAIST**](https://www.kaist.ac.kr/en/)                  | B.S. in Mechanical Engineering, Double Major in Electrical Engineering | GPA **4.10 / 4.30** |
+| **Mar 2022 - Jan 2025** | [**SASA**](https://sasa.sjeduhs.kr/sasa-s/main.do?sso=ok) | Mechatronics, Robotics, and Automation Engineering                     | GPA **4.18 / 4.30** |
 
 ---
 
@@ -118,26 +118,16 @@ Links: [Demo Video](https://www.youtube.com/watch?v=9mz6idaNPG8)
 
 ## Technical Stack
 
-| Area | Tools |
-| --- | --- |
-| **Programming** | C/C++, Python, Swift, CMake, Git |
-| **Robotics** | ROS 2, MuJoCo, Isaac Sim, MATLAB/Simulink |
-| **Control** | MPC, robot dynamics, convex optimization, feedback control |
-| **Learning** | PyTorch, reinforcement learning, imitation learning, ACT, YOLO |
-| **Systems** | SLAM, embedded systems, sensor integration, onboard computing |
+| Area            | Tools                                                          |
+| --------------- | -------------------------------------------------------------- |
+| **Programming** | C/C++, Python, Swift, CMake, Git                               |
+| **Robotics**    | ROS 2, MuJoCo, Isaac Sim, MATLAB/Simulink                      |
+| **Control**     | MPC, robot dynamics, convex optimization, feedback control     |
+| **Learning**    | PyTorch, reinforcement learning, imitation learning, ACT, YOLO |
+| **Systems**     | SLAM, embedded systems, sensor integration, onboard computing  |
 
 ---
 
-## Around This Blog
-
-If you are browsing the site for technical content first, these are good entry points:
-
-- [MuJoCo workspace notes]({% post_url 2026-01-06-MuJoCo_Workspace %})
-- [ROS 2 communication overview](/posts/ROS-2의-시스템의-기본-통신-방식/)
-- [Indoor SLAM / navigation build log]({% post_url 2023-12-27-SLAM_NAVIGATION %})
-- [Ball and Beam control project]({% post_url 2024-06-09-[Project]_BallAndBeam %})
-
----
 
 ## Contact
 
