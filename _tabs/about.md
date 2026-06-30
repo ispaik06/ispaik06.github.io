@@ -37,7 +37,7 @@ GPA: **4.18 / 4.30**
 
 ## Experience
 
-### KAIST DRCD Lab
+### [KAIST DRCD Lab](https://dynamicrobot.kaist.ac.kr/)
 **Research Intern** · Daejeon, South Korea  
 **Feb 2026 - Jun 2026**
 
