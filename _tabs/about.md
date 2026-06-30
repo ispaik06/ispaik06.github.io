@@ -8,6 +8,8 @@ order: 4
 
 I study **Mechanical Engineering** at [**KAIST**](https://www.kaist.ac.kr/en/) with a double major in **Electrical Engineering**. My work focuses on **robot dynamics**, **control**, **embedded systems**, and **learning-based robotics**, with increasing attention to embodied systems that tie perception, decision-making, and physical interaction into one stack.
 
+Links: [GitHub](https://github.com/ispaik06) · [YouTube](https://www.youtube.com/@_ispaik.0)
+
 This page is the compact version of what I build and how I work. The blog itself is where I keep the longer notes, implementation details, and project logs.
 
 ---
@@ -46,7 +48,7 @@ GPA: **4.18 / 4.30**
 
 ---
 
-## Selected Projects
+## Selected Projects 🛠️
 
 ### Convex MPC for Humanoid Robots
 **Mar 2026 - May 2026** · Research / Personal Project
@@ -102,7 +104,7 @@ Links: [Demo Video](https://www.youtube.com/watch?v=9mz6idaNPG8)
 
 ---
 
-## Leadership & Activities
+## Leadership & Activities 🚀
 
 ### KAIST MR Robotics Club (2025 - 2026)
 **Regular Project Team Lead (2025)**  
@@ -121,7 +123,7 @@ Links: [Demo Video](https://www.youtube.com/watch?v=9mz6idaNPG8)
 
 ---
 
-## Technical Stack
+## Technical Stack ⚙️
 
 | Area            | Tools                                                          |
 | --------------- | -------------------------------------------------------------- |
@@ -134,7 +136,7 @@ Links: [Demo Video](https://www.youtube.com/watch?v=9mz6idaNPG8)
 ---
 
 
-## Contact
+## Contact 📬
 
 - **Email:** [ispaik06@kaist.ac.kr](mailto:ispaik06@kaist.ac.kr)
 - **GitHub:** [github.com/ispaik06](https://github.com/ispaik06)
