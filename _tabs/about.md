@@ -23,10 +23,15 @@ This page is the compact version of what I build and how I work. The blog itself
 
 ## Education
 
-| Period                  | Institution                                               | Program                                                                | Notes               |
-| ----------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------- |
-| **Feb 2025 - Present**  | [**KAIST**](https://www.kaist.ac.kr/en/)                  | B.S. in Mechanical Engineering, Double Major in Electrical Engineering | GPA **4.10 / 4.30** |
-| **Mar 2022 - Jan 2025** | [**SASA**](https://sasa.sjeduhs.kr/sasa-s/main.do?sso=ok) | Mechatronics, Robotics, and Automation Engineering                     | GPA **4.18 / 4.30** |
+**[KAIST](https://www.kaist.ac.kr/en/)**  
+*Feb 2025 - Present*  
+B.S. in Mechanical Engineering, Double Major in Electrical Engineering  
+GPA: **4.10 / 4.30**
+
+**[SASA](https://sasa.sjeduhs.kr/sasa-s/main.do?sso=ok)**  
+*Mar 2022 - Jan 2025*  
+Mechatronics, Robotics, and Automation Engineering  
+GPA: **4.18 / 4.30**
 
 ---
 
