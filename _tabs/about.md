@@ -55,7 +55,7 @@ GPA: **4.18 / 4.30**
 
 Built a convex MPC-based humanoid locomotion framework in **MuJoCo** and **C++**, with a focus on contact-wrench optimization and single-rigid-body dynamics for stable bipedal walking. I wrote a full technical article covering the mathematics (SRB dynamics, condensed QP, yaw-rotated CoP constraints), solver engineering, and the MPC debugging methodology behind it.
 
-Links: [**Technical Article**]({% post_url 2026-07-13-Convex_MPC_Bipedal_Humanoid_Locomotion %}) · [GitHub](https://github.com/ispaik06/convex-mpc-biped) · [Demo Video](https://www.youtube.com/watch?v=-9o8ceG3P2g) · [Standalone Article (GitHub Pages)](https://ispaik06.github.io/convex-mpc-biped/)
+Links: [**Technical Article**](https://ispaik06.github.io/convex-mpc-biped/) · [GitHub](https://github.com/ispaik06/convex-mpc-biped) · [Demo Video](https://www.youtube.com/watch?v=-9o8ceG3P2g)
 
 ### Panbot
 **Jan 2026 - Feb 2026** · Personal Robotics Project
