@@ -60,9 +60,9 @@ Links: [**Technical Article**](https://ispaik06.github.io/convex-mpc-biped/) · 
 ### Panbot
 **Jan 2026 - Feb 2026** · Personal Robotics Project
 
-An autonomous pancake-cooking robot built on **LeRobot SO-ARM101**, combining a staged manipulation pipeline with imitation-learning policies. The system used **YOLOv8 segmentation** and a **ResNet18-GRU** state estimator to switch behaviors robustly during pouring, flipping, and plating.
+An autonomous pancake-cooking robot built on **LeRobot SO-ARM101**, combining a staged manipulation pipeline with imitation-learning policies. The system used **YOLOv8 segmentation** and a **ResNet18-GRU** state estimator to switch behaviors robustly during pouring, flipping, and plating. I wrote a full technical article covering the perception-triggered runtime, the trigger math and debouncing, the GRU training pipeline, and the ACT policy integration.
 
-Links: [Control / System Repo](https://github.com/ispaik06/Panbot) · [Vision Repo](https://github.com/ispaik06/Panbot_vision) · [Demo Video](https://www.youtube.com/watch?v=SyGJ2h8aM98)
+Links: [**Technical Article**](https://ispaik06.github.io/Panbot/) · [Control / System Repo](https://github.com/ispaik06/Panbot) · [Vision Repo](https://github.com/ispaik06/Panbot_vision) · [Demo Video](https://www.youtube.com/watch?v=SyGJ2h8aM98) · [Related Blog Post]({% post_url 2026-03-15-Panbot_Autonomous_Pancake_Cooking_Robot %})
 
 ### mj_ws
 **Jan 2026** · Personal Software Project
