@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en" data-base="" data-kind="notes">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Notes · Inseong Paik</title>
+<meta name="description" content="Study notes on control, robotics, and probability.">
+<link rel="canonical" href="https://ispaik06.github.io/notes/">
+<meta property="og:title" content="Notes · Inseong Paik">
+<meta property="og:description" content="Study notes on control, robotics, and probability.">
+<meta property="og:url" content="https://ispaik06.github.io/notes/">
+<meta name="theme-color" content="#0b0b0d">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<script>(function(){try{var t=localStorage.getItem('site-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}})()</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="/assets/katex/katex.min.css">
+<link rel="stylesheet" href="/assets/site.css?v=dfa8f17586">
+</head>
+<body><header class="site-header">
+<a class="wordmark" href="/">ispaik06</a>
+<nav class="site-nav">
+<a href="/#work">Work</a>
+<a href="/notes/" class="active">Notes</a>
+<a href="/about/">About</a>
+<button class="icon-btn" id="search-btn" type="button" aria-label="Search notes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+<button class="icon-btn" id="theme-btn" type="button" aria-label="Toggle light mode"><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
+</nav>
+</header>
+<div class="search" id="search" hidden>
+<div class="search-panel" role="dialog" aria-label="Search notes">
+<input id="search-input" type="search" placeholder="Search notes…" autocomplete="off" spellcheck="false">
+<div class="search-results" id="search-results"></div>
+</div>
+</div><main class="notes-index">
+<header class="page-head">
+<h1 class="display">Notes</h1>
+<p class="lede serif">Study notes compiled from my research wiki. Series are read in order, course notes follow the lecturer, and a paper gets a prerequisites note before the paper itself.</p>
+<p class="page-jump mono"><a href="#map">Map of the notes</a></p>
+</header>
+<section class="shelf"><h2 class="section-head">Lecture series</h2>
+<article class="shelf-card">
+<a class="shelf-fig" href="/notes/bayes-and-particle-filters/" tabindex="-1" aria-hidden="true"><img src="/assets/img/bpf-hub-roadmap.svg" alt="" loading="lazy" decoding="async"></a>
+<div class="shelf-body">
+<h3 class="shelf-title display"><a href="/notes/bayes-and-particle-filters/">Bayes and Particle Filters</a></h3>
+<p class="shelf-meta mono">7 lectures<span class="sep">·</span>KO<span class="sep">·</span>updated 2026-09-15</p>
+<p class="shelf-desc">Bayes filter의 두 식과 SIR particle filter의 loop를 외우지 않고 읽기 위한 일곱 강의. L1–L2는 확률 규칙, L3–L4는 hidden state model과 exact Bayes filter, L5–L7은 particle 근사.</p>
+<div class="chips"><a class="chip" href="/notes/bayes-and-particle-filters/l1-joint-marginal-and-conditional/"><span class="mono">L1</span>Joint, Marginal, and Conditional</a><a class="chip" href="/notes/bayes-and-particle-filters/l2-bayes-theorem/"><span class="mono">L2</span>Bayes Theorem</a><a class="chip" href="/notes/bayes-and-particle-filters/l3-hidden-state-models/"><span class="mono">L3</span>Hidden State Models</a><a class="chip" href="/notes/bayes-and-particle-filters/l4-the-bayes-filter/"><span class="mono">L4</span>The Bayes Filter</a><a class="chip" href="/notes/bayes-and-particle-filters/l5-monte-carlo-and-particles/"><span class="mono">L5</span>Monte Carlo and Particles</a><a class="chip" href="/notes/bayes-and-particle-filters/l6-importance-sampling/"><span class="mono">L6</span>Importance Sampling</a><a class="chip" href="/notes/bayes-and-particle-filters/l7-resampling-and-sir/"><span class="mono">L7</span>Resampling and SIR</a></div>
+
+</div>
+</article>
+<article class="shelf-card">
+<a class="shelf-fig" href="/notes/kalman-filtering/" tabindex="-1" aria-hidden="true"><img src="/assets/img/kf-hub-roadmap.svg" alt="" loading="lazy" decoding="async"></a>
+<div class="shelf-body">
+<h3 class="shelf-title display"><a href="/notes/kalman-filtering/">Kalman Filtering</a></h3>
+<p class="shelf-meta mono">7 lectures<span class="sep">·</span>KO<span class="sep">·</span>updated 2026-09-18</p>
+<p class="shelf-desc">Linear-Gaussian estimation의 prediction과 correction을 유도하고, implementation·noise diagnostics·steady-state Riccati·LQG까지 연결하는 일곱 강의.</p>
+<div class="chips"><a class="chip" href="/notes/kalman-filtering/l1-the-linear-gaussian-estimation-problem/"><span class="mono">L1</span>The Linear-Gaussian Estimation Problem</a><a class="chip" href="/notes/kalman-filtering/l2-prediction/"><span class="mono">L2</span>Prediction</a><a class="chip" href="/notes/kalman-filtering/l3-scalar-measurement-update/"><span class="mono">L3</span>Scalar Measurement Update</a><a class="chip" href="/notes/kalman-filtering/l4-multivariate-measurement-update/"><span class="mono">L4</span>Multivariate Measurement Update</a><a class="chip" href="/notes/kalman-filtering/l5-the-complete-recursive-filter/"><span class="mono">L5</span>The Complete Recursive Filter</a><a class="chip" href="/notes/kalman-filtering/l6-noise-modeling-and-diagnostics/"><span class="mono">L6</span>Noise Modeling and Diagnostics</a><a class="chip" href="/notes/kalman-filtering/l7-riccati-observers-and-lqg/"><span class="mono">L7</span>Riccati, Observers, and LQG</a></div>
+
+</div>
+</article>
+</section>
+<section class="shelf"><h2 class="section-head">Courses</h2>
+<article class="shelf-card">
+<a class="shelf-fig shelf-tiles" href="/notes/silver-rl/lecture-2-lecture-notes/" tabindex="-1" aria-hidden="true"><span class="mono">L2</span><span class="mono">L3</span><span class="mono">L4</span><span class="mono">L5</span><span class="mono">L6</span><span class="mono">L7</span><span class="mono">L8</span><span class="mono">L9</span><span class="mono">L10</span></a>
+<div class="shelf-body">
+<h3 class="shelf-title display"><a href="/notes/silver-rl/lecture-2-lecture-notes/">David Silver's Reinforcement Learning Course</a></h3>
+<p class="shelf-meta mono">9 lectures<span class="sep">·</span>EN / KO<span class="sep">·</span>updated 2026-09-13</p>
+<p class="shelf-desc">UCL, 2015. Lecture notes that say only what the slides don't, question lists from my own reading, and a Korean reading companion for lecture 6. Slides are shown under CC BY-NC 4.0.</p>
+<div class="chips"><a class="chip" href="/notes/silver-rl/lecture-2-lecture-notes/"><span class="mono">L2</span>Markov Decision Processes</a><a class="chip" href="/notes/silver-rl/lecture-3-lecture-notes/"><span class="mono">L3</span>Planning by Dynamic Programming</a><a class="chip" href="/notes/silver-rl/lecture-4-lecture-notes/"><span class="mono">L4</span>Model-Free Prediction</a><a class="chip" href="/notes/silver-rl/lecture-5-lecture-notes/"><span class="mono">L5</span>Model-Free Control</a><a class="chip" href="/notes/silver-rl/lecture-6-lecture-notes/"><span class="mono">L6</span>Value Function Approximation</a><a class="chip" href="/notes/silver-rl/lecture-7-lecture-notes/"><span class="mono">L7</span>Policy Gradient</a><a class="chip" href="/notes/silver-rl/lecture-8-lecture-notes/"><span class="mono">L8</span>Integrating Learning and Planning</a><a class="chip" href="/notes/silver-rl/lecture-9-lecture-notes/"><span class="mono">L9</span>Exploration and Exploitation</a><a class="chip" href="/notes/silver-rl/lecture-10-lecture-notes/"><span class="mono">L10</span>Classic Games</a></div>
+<p class="shelf-extra mono">Question Lists: <a href="/notes/silver-rl/lecture-2-question-list/">L2</a>, <a href="/notes/silver-rl/lecture-3-question-list/">L3</a>, <a href="/notes/silver-rl/lecture-4-question-list/">L4</a>, <a href="/notes/silver-rl/lecture-5-question-list/">L5</a><span class="sep">·</span>Reading Companion: <a href="/notes/silver-rl/lecture-6-reading-companion/">L6</a></p>
+</div>
+</article>
+</section>
+<section class="shelf"><h2 class="section-head">Papers</h2>
+<article class="shelf-card">
+<a class="shelf-fig" href="/notes/lee-2020-prerequisites-lecture-notes/" tabindex="-1" aria-hidden="true"><img src="/assets/img/lee2020-fig4-overview.png" alt="" loading="lazy" decoding="async"></a>
+<div class="shelf-body">
+<h3 class="shelf-title display"><a href="/notes/lee-2020-prerequisites-lecture-notes/">Lee 2020 · Prerequisites — Lecture Notes</a></h3>
+<p class="shelf-meta mono">Paper<span class="sep">·</span>EN<span class="sep">·</span>updated 2026-09-16</p>
+<p class="shelf-desc">What Learning Quadrupedal Locomotion over Challenging Terrain assumes you already know: the motion prior, TRPO, privileged learning and DAgger, TCN memory, and the Bayes-to-particle curriculum.</p>
+<div class="chips"><a class="chip" href="/notes/lee-2020-prerequisites-lecture-notes/#1-%C2%B7-Motion-prior-phase%2C-trajectory-generator%2C-horizontal-frame%2C-inverse-kinematics"><span class="mono">§1</span>Motion prior</a><a class="chip" href="/notes/lee-2020-prerequisites-lecture-notes/#2-%C2%B7-Teacher-from-policy-gradient-to-TRPO"><span class="mono">§2</span>Teacher</a><a class="chip" href="/notes/lee-2020-prerequisites-lecture-notes/#3-%C2%B7-Privileged-learning-teacher%2C-student%2C-and-DAgger"><span class="mono">§3</span>Privileged learning</a><a class="chip" href="/notes/lee-2020-prerequisites-lecture-notes/#4-%C2%B7-Memory-partial-observability-and-the-TCN"><span class="mono">§4</span>Memory</a><a class="chip" href="/notes/lee-2020-prerequisites-lecture-notes/#5-%C2%B7-Curriculum-from-Bayes-filter-to-particle-filter"><span class="mono">§5</span>Curriculum</a><a class="chip" href="/notes/lee-2020-prerequisites-lecture-notes/#6-%C2%B7-Reading-the-evidence"><span class="mono">§6</span>Reading the evidence</a></div>
+
+</div>
+</article>
+</section>
+<section class="shelf"><h2 class="section-head">Notes</h2><ul class="note-list"><li><a href="/notes/lqr-riccati-and-the-bellman-bridge/"><span class="t">LQR, Riccati, and the Bellman Bridge</span><span class="m mono">KO · 2026-09-18</span></a></li></ul></section>
+<section class="map" id="map">
+<h2 class="section-head">Map</h2>
+<p class="map-lede serif">What each note assumes and what it leads to. Follow the arrows; dashed nodes are lectures still to be written.</p>
+<div class="map-scroll"><svg class="map-svg" viewBox="0 0 1316 626" width="1316" height="626" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of the notes">
+<defs><marker id="map-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="userSpaceOnUse"><path class="map-arrow" d="M0,0 L7,3.5 L0,7 z"/></marker></defs>
+<text class="map-lane" x="0" y="14">PROBABILITY AND ESTIMATION</text><line class="map-rule" x1="0" y1="24" x2="1316" y2="24"/>
+<text class="map-lane" x="0" y="246">CONTROL</text><line class="map-rule" x1="0" y1="256" x2="1316" y2="256"/>
+<text class="map-lane" x="0" y="390">REINFORCEMENT LEARNING</text><line class="map-rule" x1="0" y1="400" x2="1316" y2="400"/>
+<text class="map-lane" x="0" y="534">PAPERS AND SYSTEMS</text><line class="map-rule" x1="0" y1="544" x2="1316" y2="544"/>
+<path class="map-edge" d="M165,68 L186,68" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M330,68 L351,68" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M488,68 L509,68" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M624,68 L645,68" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M782,68 L803,68" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M925,68 L946,68" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M121,300 L142,300" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M250,300 L271,300" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M158,444 L179,444" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M287,444 L308,444" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M430,444 L451,444" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M573,444 L594,444" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M716,444 L737,444" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M834,444 L855,444" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M992,444 L1013,444" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M1143,444 L1164,444" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M121,588 L142,588" marker-end="url(#map-arrow)"/>
+<path class="map-edge map-edge-cross" d="M567,98 C567,111.5 570.5,111.5 570.5,125" marker-end="url(#map-arrow)"/>
+<path class="map-edge" d="M631,156 L652,156" marker-end="url(#map-arrow)"/>
+<path class="map-edge map-edge-cross" d="M1022.5,98 C1022.5,327.5 60.5,327.5 60.5,557" marker-end="url(#map-arrow)"/>
+<path class="map-edge map-edge-cross" d="M786,474 C786,515.5 60.5,515.5 60.5,557" marker-end="url(#map-arrow)"/>
+<path class="map-edge map-edge-cross" d="M233.5,414 C233.5,372.5 60.5,372.5 60.5,331" marker-end="url(#map-arrow)"/>
+<a class="map-node page" href="/notes/bayes-and-particle-filters/l1-joint-marginal-and-conditional/"><rect x="0.5" y="38.5" width="164" height="59" rx="6"/><text class="map-label" x="12" y="58">L1 Joint, marginal,</text><text class="map-label" x="12" y="73">conditional</text><text class="map-sub" x="12" y="88">BAYES AND PF</text></a>
+<a class="map-node page" href="/notes/bayes-and-particle-filters/l2-bayes-theorem/"><rect x="187.5" y="38.5" width="142" height="59" rx="6"/><text class="map-label" x="199" y="62">L2 Bayes theorem</text><text class="map-sub" x="199" y="88">BAYES AND PF</text></a>
+<a class="map-node page" href="/notes/bayes-and-particle-filters/l3-hidden-state-models/"><rect x="352.5" y="38.5" width="135" height="59" rx="6"/><text class="map-label" x="364" y="58">L3 Hidden state</text><text class="map-label" x="364" y="73">models</text><text class="map-sub" x="364" y="88">BAYES AND PF</text></a>
+<a class="map-node page" href="/notes/bayes-and-particle-filters/l4-the-bayes-filter/"><rect x="510.5" y="38.5" width="113" height="59" rx="6"/><text class="map-label" x="522" y="58">L4 The Bayes</text><text class="map-label" x="522" y="73">filter</text><text class="map-sub" x="522" y="88">BAYES AND PF</text></a>
+<a class="map-node page" href="/notes/bayes-and-particle-filters/l5-monte-carlo-and-particles/"><rect x="646.5" y="38.5" width="135" height="59" rx="6"/><text class="map-label" x="658" y="58">L5 Monte Carlo,</text><text class="map-label" x="658" y="73">particles</text><text class="map-sub" x="658" y="88">BAYES AND PF</text></a>
+<a class="map-node page" href="/notes/bayes-and-particle-filters/l6-importance-sampling/"><rect x="804.5" y="38.5" width="120" height="59" rx="6"/><text class="map-label" x="816" y="58">L6 Importance</text><text class="map-label" x="816" y="73">sampling</text><text class="map-sub" x="816" y="88">BAYES AND PF</text></a>
+<a class="map-node page" href="/notes/bayes-and-particle-filters/l7-resampling-and-sir/"><rect x="947.5" y="38.5" width="150" height="59" rx="6"/><text class="map-label" x="959" y="58">L7 Resampling and</text><text class="map-label" x="959" y="73">SIR</text><text class="map-sub" x="959" y="88">BAYES AND PF</text></a>
+<a class="map-node page" href="/notes/kalman-filtering/"><rect x="510.5" y="126.5" width="120" height="59" rx="6"/><text class="map-label" x="522" y="150">Kalman filter</text><text class="map-sub" x="522" y="176">KALMAN FILTER</text></a>
+<a class="map-node page" href="/work/kalman-imu/"><rect x="653.5" y="126.5" width="150" height="59" rx="6"/><text class="map-label" x="665" y="146">IMU Kalman filter</text><text class="map-label" x="665" y="161">(2023)</text><text class="map-sub" x="665" y="176">WORK</text></a>
+<a class="map-node page" href="/notes/lqr-riccati-and-the-bellman-bridge/"><rect x="0.5" y="270.5" width="120" height="59" rx="6"/><text class="map-label" x="12" y="290">LQR, Riccati,</text><text class="map-label" x="12" y="305">Bellman</text><text class="map-sub" x="12" y="320">NOTE</text></a>
+<g class="map-node planned"><rect x="143.5" y="270.5" width="106" height="59" rx="6"/><text class="map-label" x="155" y="294">MPC lecture</text><text class="map-sub" x="155" y="320">PLANNED</text></g>
+<a class="map-node external" href="https://ispaik06.github.io/convex-mpc-biped/" target="_blank" rel="noopener"><rect x="272.5" y="270.5" width="142" height="59" rx="6"/><text class="map-label" x="284" y="290">Convex MPC for a</text><text class="map-label" x="284" y="305">biped</text><text class="map-sub" x="284" y="320">ARTICLE</text></a>
+<a class="map-node page" href="/notes/silver-rl/lecture-2-lecture-notes/"><rect x="0.5" y="414.5" width="157" height="59" rx="6"/><text class="map-label" x="12" y="434">L2 Markov decision</text><text class="map-label" x="12" y="449">processes</text><text class="map-sub" x="12" y="464">SILVER RL</text></a>
+<a class="map-node page" href="/notes/silver-rl/lecture-3-lecture-notes/"><rect x="180.5" y="414.5" width="106" height="59" rx="6"/><text class="map-label" x="192" y="434">L3 Dynamic</text><text class="map-label" x="192" y="449">programming</text><text class="map-sub" x="192" y="464">SILVER RL</text></a>
+<a class="map-node page" href="/notes/silver-rl/lecture-4-lecture-notes/"><rect x="309.5" y="414.5" width="120" height="59" rx="6"/><text class="map-label" x="321" y="434">L4 Model-free</text><text class="map-label" x="321" y="449">prediction</text><text class="map-sub" x="321" y="464">SILVER RL</text></a>
+<a class="map-node page" href="/notes/silver-rl/lecture-5-lecture-notes/"><rect x="452.5" y="414.5" width="120" height="59" rx="6"/><text class="map-label" x="464" y="434">L5 Model-free</text><text class="map-label" x="464" y="449">control</text><text class="map-sub" x="464" y="464">SILVER RL</text></a>
+<a class="map-node page" href="/notes/silver-rl/lecture-6-lecture-notes/"><rect x="595.5" y="414.5" width="120" height="59" rx="6"/><text class="map-label" x="607" y="434">L6 Function</text><text class="map-label" x="607" y="449">approximation</text><text class="map-sub" x="607" y="464">SILVER RL</text></a>
+<a class="map-node page" href="/notes/silver-rl/lecture-7-lecture-notes/"><rect x="738.5" y="414.5" width="95" height="59" rx="6"/><text class="map-label" x="750" y="434">L7 Policy</text><text class="map-label" x="750" y="449">gradient</text><text class="map-sub" x="750" y="464">SILVER RL</text></a>
+<a class="map-node page" href="/notes/silver-rl/lecture-8-lecture-notes/"><rect x="856.5" y="414.5" width="135" height="59" rx="6"/><text class="map-label" x="868" y="434">L8 Learning and</text><text class="map-label" x="868" y="449">planning</text><text class="map-sub" x="868" y="464">SILVER RL</text></a>
+<a class="map-node page" href="/notes/silver-rl/lecture-9-lecture-notes/"><rect x="1014.5" y="414.5" width="128" height="59" rx="6"/><text class="map-label" x="1026" y="438">L9 Exploration</text><text class="map-sub" x="1026" y="464">SILVER RL</text></a>
+<a class="map-node page" href="/notes/silver-rl/lecture-10-lecture-notes/"><rect x="1165.5" y="414.5" width="150" height="59" rx="6"/><text class="map-label" x="1177" y="438">L10 Classic games</text><text class="map-sub" x="1177" y="464">SILVER RL</text></a>
+<a class="map-node page" href="/notes/lee-2020-prerequisites-lecture-notes/"><rect x="0.5" y="558.5" width="120" height="59" rx="6"/><text class="map-label" x="12" y="578">Lee 2020</text><text class="map-label" x="12" y="593">prerequisites</text><text class="map-sub" x="12" y="608">PAPER</text></a>
+<g class="map-node planned"><rect x="143.5" y="558.5" width="128" height="59" rx="6"/><text class="map-label" x="155" y="578">Lee 2020 paper</text><text class="map-label" x="155" y="593">note</text><text class="map-sub" x="155" y="608">PLANNED</text></g>
+</svg></div>
+<p class="map-legend"><span class="lg-page"><i></i>Published</span><span class="lg-planned"><i></i>Planned</span><span class="lg-external"><i></i>Elsewhere on the web</span></p>
+</section>
+</main>
+<script src="/assets/site.js?v=dfa8f17586" defer></script>
+</body>
+</html>
